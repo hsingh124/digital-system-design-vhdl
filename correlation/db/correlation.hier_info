@@ -1,0 +1,36 @@
+|correlation
+clk => ~NO_FANOUT~
+in_1[0] => ~NO_FANOUT~
+in_1[1] => ~NO_FANOUT~
+in_1[2] => ~NO_FANOUT~
+in_1[3] => ~NO_FANOUT~
+in_1[4] => ~NO_FANOUT~
+in_1[5] => ~NO_FANOUT~
+in_1[6] => ~NO_FANOUT~
+in_1[7] => ~NO_FANOUT~
+in_1[8] => ~NO_FANOUT~
+in_1[9] => ~NO_FANOUT~
+in_1[10] => ~NO_FANOUT~
+in_1[11] => ~NO_FANOUT~
+in_1[12] => ~NO_FANOUT~
+in_1[13] => ~NO_FANOUT~
+in_1[14] => ~NO_FANOUT~
+in_1[15] => ~NO_FANOUT~
+in_2[0] => ~NO_FANOUT~
+in_2[1] => ~NO_FANOUT~
+in_2[2] => ~NO_FANOUT~
+in_2[3] => ~NO_FANOUT~
+in_2[4] => ~NO_FANOUT~
+in_2[5] => ~NO_FANOUT~
+in_2[6] => ~NO_FANOUT~
+in_2[7] => ~NO_FANOUT~
+in_2[8] => ~NO_FANOUT~
+in_2[9] => ~NO_FANOUT~
+in_2[10] => ~NO_FANOUT~
+in_2[11] => ~NO_FANOUT~
+in_2[12] => ~NO_FANOUT~
+in_2[13] => ~NO_FANOUT~
+in_2[14] => ~NO_FANOUT~
+in_2[15] => ~NO_FANOUT~
+
+

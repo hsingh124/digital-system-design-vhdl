@@ -27,25 +27,25 @@
 # Modifying modelsim.ini
 # vcom -93 -work altera {c:/intelfpga/18.1/quartus/eda/sim_lib/altera_syn_attributes.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:31 on May 15,2021
+# Start time: 16:20:57 on May 16,2021
 # vcom -reportprogress 300 -93 -work altera c:/intelfpga/18.1/quartus/eda/sim_lib/altera_syn_attributes.vhd 
 # -- Loading package STANDARD
 # -- Compiling package altera_syn_attributes
-# End time: 22:21:31 on May 15,2021, Elapsed time: 0:00:00
+# End time: 16:20:57 on May 16,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera {c:/intelfpga/18.1/quartus/eda/sim_lib/altera_standard_functions.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:31 on May 15,2021
+# Start time: 16:20:57 on May 16,2021
 # vcom -reportprogress 300 -93 -work altera c:/intelfpga/18.1/quartus/eda/sim_lib/altera_standard_functions.vhd 
 # -- Loading package STANDARD
 # -- Compiling package altera_standard_functions
 # -- Compiling package body altera_standard_functions
 # -- Loading package altera_standard_functions
-# End time: 22:21:32 on May 15,2021, Elapsed time: 0:00:01
+# End time: 16:20:58 on May 16,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera {c:/intelfpga/18.1/quartus/eda/sim_lib/alt_dspbuilder_package.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:32 on May 15,2021
+# Start time: 16:20:58 on May 16,2021
 # vcom -reportprogress 300 -93 -work altera c:/intelfpga/18.1/quartus/eda/sim_lib/alt_dspbuilder_package.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -54,11 +54,11 @@
 # -- Compiling package alt_dspbuilder_package
 # -- Compiling package body alt_dspbuilder_package
 # -- Loading package alt_dspbuilder_package
-# End time: 22:21:32 on May 15,2021, Elapsed time: 0:00:00
+# End time: 16:20:58 on May 16,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera {c:/intelfpga/18.1/quartus/eda/sim_lib/altera_europa_support_lib.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:32 on May 15,2021
+# Start time: 16:20:58 on May 16,2021
 # vcom -reportprogress 300 -93 -work altera c:/intelfpga/18.1/quartus/eda/sim_lib/altera_europa_support_lib.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -69,11 +69,11 @@
 # -- Compiling package altera_europa_support_lib
 # -- Compiling package body altera_europa_support_lib
 # -- Loading package altera_europa_support_lib
-# End time: 22:21:32 on May 15,2021, Elapsed time: 0:00:00
+# End time: 16:20:58 on May 16,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera {c:/intelfpga/18.1/quartus/eda/sim_lib/altera_primitives_components.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:32 on May 15,2021
+# Start time: 16:20:58 on May 16,2021
 # vcom -reportprogress 300 -93 -work altera c:/intelfpga/18.1/quartus/eda/sim_lib/altera_primitives_components.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -83,11 +83,11 @@
 # -- Compiling package dffeas_pack
 # -- Loading package dffeas_pack
 # -- Compiling package altera_primitives_components
-# End time: 22:21:32 on May 15,2021, Elapsed time: 0:00:00
+# End time: 16:20:58 on May 16,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera {c:/intelfpga/18.1/quartus/eda/sim_lib/altera_primitives.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:32 on May 15,2021
+# Start time: 16:20:58 on May 16,2021
 # vcom -reportprogress 300 -93 -work altera c:/intelfpga/18.1/quartus/eda/sim_lib/altera_primitives.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -175,7 +175,7 @@
 # -- Compiling architecture BEHAVIOR of alt_bidir_diff
 # -- Compiling entity alt_bidir_buf
 # -- Compiling architecture BEHAVIOR of alt_bidir_buf
-# End time: 22:21:33 on May 15,2021, Elapsed time: 0:00:01
+# End time: 16:20:59 on May 16,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib vhdl_libs/lpm
@@ -187,17 +187,17 @@
 # Modifying modelsim.ini
 # vcom -93 -work lpm {c:/intelfpga/18.1/quartus/eda/sim_lib/220pack.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:33 on May 15,2021
+# Start time: 16:20:59 on May 16,2021
 # vcom -reportprogress 300 -93 -work lpm c:/intelfpga/18.1/quartus/eda/sim_lib/220pack.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package LPM_COMPONENTS
-# End time: 22:21:34 on May 15,2021, Elapsed time: 0:00:01
+# End time: 16:21:00 on May 16,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work lpm {c:/intelfpga/18.1/quartus/eda/sim_lib/220model.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:34 on May 15,2021
+# Start time: 16:21:00 on May 16,2021
 # vcom -reportprogress 300 -93 -work lpm c:/intelfpga/18.1/quartus/eda/sim_lib/220model.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -293,7 +293,7 @@
 # -- Compiling architecture LPM_SYN of LPM_OUTpad
 # -- Compiling entity LPM_BIpad
 # -- Compiling architecture LPM_SYN of LPM_BIpad
-# End time: 22:21:34 on May 15,2021, Elapsed time: 0:00:00
+# End time: 16:21:00 on May 16,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib vhdl_libs/sgate
@@ -305,7 +305,7 @@
 # Modifying modelsim.ini
 # vcom -93 -work sgate {c:/intelfpga/18.1/quartus/eda/sim_lib/sgate_pack.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:35 on May 15,2021
+# Start time: 16:21:08 on May 16,2021
 # vcom -reportprogress 300 -93 -work sgate c:/intelfpga/18.1/quartus/eda/sim_lib/sgate_pack.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -313,11 +313,11 @@
 # -- Compiling package sgate_pack
 # -- Compiling package body sgate_pack
 # -- Loading package sgate_pack
-# End time: 22:21:35 on May 15,2021, Elapsed time: 0:00:00
+# End time: 16:21:08 on May 16,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work sgate {c:/intelfpga/18.1/quartus/eda/sim_lib/sgate.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:35 on May 15,2021
+# Start time: 16:21:08 on May 16,2021
 # vcom -reportprogress 300 -93 -work sgate c:/intelfpga/18.1/quartus/eda/sim_lib/sgate.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -367,7 +367,7 @@
 # -- Compiling architecture sim_arch of oper_bus_mux
 # -- Compiling entity oper_latch
 # -- Compiling architecture sim_arch of oper_latch
-# End time: 22:21:35 on May 15,2021, Elapsed time: 0:00:00
+# End time: 16:21:09 on May 16,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib vhdl_libs/altera_mf
@@ -379,17 +379,17 @@
 # Modifying modelsim.ini
 # vcom -93 -work altera_mf {c:/intelfpga/18.1/quartus/eda/sim_lib/altera_mf_components.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:36 on May 15,2021
+# Start time: 16:21:09 on May 16,2021
 # vcom -reportprogress 300 -93 -work altera_mf c:/intelfpga/18.1/quartus/eda/sim_lib/altera_mf_components.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package altera_mf_components
-# End time: 22:21:36 on May 15,2021, Elapsed time: 0:00:00
+# End time: 16:21:10 on May 16,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera_mf {c:/intelfpga/18.1/quartus/eda/sim_lib/altera_mf.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:36 on May 15,2021
+# Start time: 16:21:10 on May 16,2021
 # vcom -reportprogress 300 -93 -work altera_mf c:/intelfpga/18.1/quartus/eda/sim_lib/altera_mf.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -628,7 +628,7 @@
 # -- Compiling architecture sim_sld_virtual_jtag_basic of sld_virtual_jtag_basic
 # -- Compiling entity altsource_probe
 # -- Compiling architecture sim_altsource_probe of altsource_probe
-# End time: 22:21:37 on May 15,2021, Elapsed time: 0:00:01
+# End time: 16:21:12 on May 16,2021, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # 
 # vlib vhdl_libs/altera_lnsim
@@ -640,21 +640,21 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim {c:/intelfpga/18.1/quartus/eda/sim_lib/mentor/altera_lnsim_for_vhdl.sv}
 # Model Technology ModelSim SE vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:38 on May 15,2021
+# Start time: 16:21:12 on May 16,2021
 # vlog -reportprogress 300 -sv -work altera_lnsim c:/intelfpga/18.1/quartus/eda/sim_lib/mentor/altera_lnsim_for_vhdl.sv 
 # 
 # Top level modules:
-# End time: 22:21:39 on May 15,2021, Elapsed time: 0:00:01
+# End time: 16:21:13 on May 16,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera_lnsim {c:/intelfpga/18.1/quartus/eda/sim_lib/altera_lnsim_components.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:39 on May 15,2021
+# Start time: 16:21:13 on May 16,2021
 # vcom -reportprogress 300 -93 -work altera_lnsim c:/intelfpga/18.1/quartus/eda/sim_lib/altera_lnsim_components.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package altera_lnsim_components
-# End time: 22:21:39 on May 15,2021, Elapsed time: 0:00:00
+# End time: 16:21:13 on May 16,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib vhdl_libs/cyclonev
@@ -666,15 +666,15 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev {c:/intelfpga/18.1/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim SE vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:40 on May 15,2021
+# Start time: 16:21:14 on May 16,2021
 # vlog -reportprogress 300 -vlog01compat -work cyclonev c:/intelfpga/18.1/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 22:21:42 on May 15,2021, Elapsed time: 0:00:02
+# End time: 16:21:16 on May 16,2021, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vcom -93 -work cyclonev {c:/intelfpga/18.1/quartus/eda/sim_lib/cyclonev_atoms.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:42 on May 15,2021
+# Start time: 16:21:16 on May 16,2021
 # vcom -reportprogress 300 -93 -work cyclonev c:/intelfpga/18.1/quartus/eda/sim_lib/cyclonev_atoms.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -814,11 +814,22 @@
 # -- Compiling architecture behavior of cyclonev_ir_fifo_userdes
 # -- Compiling entity cyclonev_oscillator
 # -- Compiling architecture behavior of cyclonev_oscillator
-# End time: 22:21:43 on May 15,2021, Elapsed time: 0:00:01
+# End time: 16:21:17 on May 16,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht
+# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 16:22:56 on May 16,2021
+# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity averaging_filter_vhd_tst
+# -- Compiling architecture averaging_filter_arch of averaging_filter_vhd_tst
+# End time: 16:22:56 on May 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # vcom -93 -work cyclonev {c:/intelfpga/18.1/quartus/eda/sim_lib/cyclonev_components.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:43 on May 15,2021
+# Start time: 16:22:56 on May 16,2021
 # vcom -reportprogress 300 -93 -work cyclonev c:/intelfpga/18.1/quartus/eda/sim_lib/cyclonev_components.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -827,7 +838,7 @@
 # -- Loading package VITAL_Primitives
 # -- Loading package cyclonev_atom_pack
 # -- Compiling package cyclonev_components
-# End time: 22:21:43 on May 15,2021, Elapsed time: 0:00:00
+# End time: 16:22:57 on May 16,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -839,20 +850,20 @@
 # vmap work rtl_work 
 # Modifying modelsim.ini
 # 
-# vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/asp_types.vhd}
+# vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/asp_types.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:44 on May 15,2021
-# vcom -reportprogress 300 -93 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/asp_types.vhd 
+# Start time: 16:22:58 on May 16,2021
+# vcom -reportprogress 300 -93 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/asp_types.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package asp_types
-# End time: 22:21:44 on May 15,2021, Elapsed time: 0:00:00
+# End time: 16:22:58 on May 16,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/averaging_filter.vhd}
+# vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:21:44 on May 15,2021
-# vcom -reportprogress 300 -93 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/averaging_filter.vhd 
+# Start time: 16:22:58 on May 16,2021
+# vcom -reportprogress 300 -93 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -861,34 +872,34 @@
 # -- Loading package asp_types
 # -- Compiling entity averaging_filter
 # -- Compiling architecture behaviour of averaging_filter
-# End time: 22:21:44 on May 15,2021, Elapsed time: 0:00:00
+# End time: 16:22:58 on May 16,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/simulation/modelsim/averaging_filter.vht
+vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:24:43 on May 15,2021
-# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/simulation/modelsim/averaging_filter.vht 
+# Start time: 16:25:30 on May 16,2021
+# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity averaging_filter_vhd_tst
 # -- Compiling architecture averaging_filter_arch of averaging_filter_vhd_tst
-# End time: 22:24:44 on May 15,2021, Elapsed time: 0:00:01
+# End time: 16:25:30 on May 16,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/asp_types.vhd
+vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/asp_types.vhd
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:24:49 on May 15,2021
-# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/asp_types.vhd 
+# Start time: 16:25:36 on May 16,2021
+# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/asp_types.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package asp_types
-# End time: 22:24:50 on May 15,2021, Elapsed time: 0:00:01
+# End time: 16:25:36 on May 16,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/averaging_filter.vhd
+vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:24:50 on May 15,2021
-# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/averaging_filter.vhd 
+# Start time: 16:25:36 on May 16,2021
+# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -897,22 +908,22 @@ vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin84
 # -- Loading package asp_types
 # -- Compiling entity averaging_filter
 # -- Compiling architecture behaviour of averaging_filter
-# End time: 22:24:50 on May 15,2021, Elapsed time: 0:00:00
+# End time: 16:25:36 on May 16,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/asp_types.vhd
+vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/asp_types.vhd
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:24:50 on May 15,2021
-# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/asp_types.vhd 
+# Start time: 16:25:37 on May 16,2021
+# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/asp_types.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package asp_types
-# End time: 22:24:50 on May 15,2021, Elapsed time: 0:00:00
+# End time: 16:25:37 on May 16,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/averaging_filter.vhd
+vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:24:50 on May 15,2021
-# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/averaging_filter.vhd 
+# Start time: 16:25:37 on May 16,2021
+# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -921,191 +932,12 @@ vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin84
 # -- Loading package asp_types
 # -- Compiling entity averaging_filter
 # -- Compiling architecture behaviour of averaging_filter
-# End time: 22:24:50 on May 15,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/asp_types.vhd
-# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:24:51 on May 15,2021
-# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/asp_types.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling package asp_types
-# End time: 22:24:52 on May 15,2021, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/averaging_filter.vhd
-# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:24:52 on May 15,2021
-# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/averaging_filter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package asp_types
-# -- Compiling entity averaging_filter
-# -- Compiling architecture behaviour of averaging_filter
-# End time: 22:24:52 on May 15,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/simulation/modelsim/averaging_filter.vht
-# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:25:10 on May 15,2021
-# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/simulation/modelsim/averaging_filter.vht 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity averaging_filter_vhd_tst
-# -- Compiling architecture averaging_filter_arch of averaging_filter_vhd_tst
-# End time: 22:25:10 on May 15,2021, Elapsed time: 0:00:00
+# End time: 16:25:37 on May 16,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim -voptargs=+acc work.averaging_filter_vhd_tst
 # vsim -voptargs="+acc" work.averaging_filter_vhd_tst 
-# Start time: 22:25:21 on May 15,2021
+# Start time: 16:25:41 on May 16,2021
 # ** Note: (vsim-3812) Design is being optimized...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.averaging_filter_vhd_tst(averaging_filter_arch)#1
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.asp_types
-# Loading work.averaging_filter(behaviour)#1
-add wave -position insertpoint  \
-sim:/averaging_filter_vhd_tst/clk \
-sim:/averaging_filter_vhd_tst/data_in \
-sim:/averaging_filter_vhd_tst/data_out
-run
-run
-run
-run
-run
-quit -sim
-# End time: 22:39:26 on May 15,2021, Elapsed time: 0:14:05
-# Errors: 0, Warnings: 0
-vsim -vopt work.averaging_filter_vhd_tst
-# vsim -vopt work.averaging_filter_vhd_tst 
-# Start time: 22:39:28 on May 15,2021
-# ** Note: (vsim-3812) Design is being optimized...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.asp_types
-# Loading work.averaging_filter_vhd_tst(averaging_filter_arch)#1
-vsim -voptargs=+acc work.averaging_filter_vhd_tst
-# End time: 22:39:38 on May 15,2021, Elapsed time: 0:00:10
-# Errors: 0, Warnings: 0
-# vsim -voptargs="+acc" work.averaging_filter_vhd_tst 
-# Start time: 22:39:38 on May 15,2021
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.averaging_filter_vhd_tst(averaging_filter_arch)#1
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.asp_types
-# Loading work.averaging_filter(behaviour)#1
-add wave -position insertpoint  \
-sim:/averaging_filter_vhd_tst/clk
-add wave -position insertpoint  \
-sim:/averaging_filter_vhd_tst/data_in
-add wave -position insertpoint  \
-sim:/averaging_filter_vhd_tst/data_out
-run
-restart -f
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-add wave -position insertpoint  \
-sim:/averaging_filter_vhd_tst/i1/clk \
-sim:/averaging_filter_vhd_tst/i1/data_in \
-sim:/averaging_filter_vhd_tst/i1/data_out \
-sim:/averaging_filter_vhd_tst/i1/data_avg \
-sim:/averaging_filter_vhd_tst/i1/data_sum \
-sim:/averaging_filter_vhd_tst/i1/count \
-sim:/averaging_filter_vhd_tst/i1/point \
-sim:/averaging_filter_vhd_tst/i1/temp \
-sim:/averaging_filter_vhd_tst/i1/backlog
-run
-run
-run
-quit -sim
-# End time: 22:48:21 on May 15,2021, Elapsed time: 0:08:43
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/simulation/modelsim/averaging_filter.vht
-# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:48:28 on May 15,2021
-# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/simulation/modelsim/averaging_filter.vht 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity averaging_filter_vhd_tst
-# -- Compiling architecture averaging_filter_arch of averaging_filter_vhd_tst
-# End time: 22:48:28 on May 15,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/asp_types.vhd
-# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:48:33 on May 15,2021
-# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/asp_types.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling package asp_types
-# End time: 22:48:34 on May 15,2021, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/averaging_filter.vhd
-# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:48:34 on May 15,2021
-# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/averaging_filter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package asp_types
-# -- Compiling entity averaging_filter
-# -- Compiling architecture behaviour of averaging_filter
-# End time: 22:48:34 on May 15,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/asp_types.vhd
-# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:48:35 on May 15,2021
-# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/asp_types.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling package asp_types
-# End time: 22:48:35 on May 15,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/averaging_filter.vhd
-# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:48:35 on May 15,2021
-# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/averaging_filter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package asp_types
-# -- Compiling entity averaging_filter
-# -- Compiling architecture behaviour of averaging_filter
-# End time: 22:48:35 on May 15,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/simulation/modelsim/averaging_filter.vht
-# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 22:48:39 on May 15,2021
-# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/averaging/simulation/modelsim/averaging_filter.vht 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity averaging_filter_vhd_tst
-# -- Compiling architecture averaging_filter_arch of averaging_filter_vhd_tst
-# End time: 22:48:40 on May 15,2021, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vsim -voptargs=+acc work.averaging_filter_vhd_tst
-# vsim -voptargs="+acc" work.averaging_filter_vhd_tst 
-# Start time: 22:49:05 on May 15,2021
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -1132,5 +964,5 @@ run
 run
 run
 run
-# End time: 22:55:27 on May 15,2021, Elapsed time: 0:06:22
+# End time: 16:54:06 on May 16,2021, Elapsed time: 0:28:25
 # Errors: 0, Warnings: 0
