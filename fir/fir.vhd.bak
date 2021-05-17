@@ -1,0 +1,49 @@
+library ieee;
+use ieee.numeric_std.all;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use ieee.std_logic_arith.all;
+
+
+entity fir is
+	port (
+		clk : in  std_logic;
+		sample_in : in std_logic_vector(15 downto 0);
+		acc_val : out std_logic_vector(15 downto 0)
+		);
+end entity;
+
+architecture rtl of fir is
+signal count : std_logic_vector(1 downto 0) := "00"; --initialize count to 0
+signal prev_val :std_logic_vector(15 downto 0) :="0000000000000000"; --the value delayed by a clock cycle...
+variable sum : std_logic_vector(16 downto 0) := "00000000000000000";
+type accumulate_sample is array (3 downto 0) of std_logic_vector(16 downto 0);
+begin
+	process(clk)
+	begin
+		if rising_edge(clk) then
+		
+			if count = "00" then
+				accumulate_sample(0) <= sample_in * 2;
+				prev_val <= sample_in;
+			elsif count = "01" then
+				accumulate_sample(1) <= prev_val * 5;
+				prev_val <= sample_in;
+			elsif count = "10" then
+				accumulate_sample(2) <= prev_val * 8;
+				prev_val <= sample_in;
+			else 
+				accumulate_sample(3) <= prev_val * 4;
+				prev_val <= sample_in;
+			end if;
+			
+			for i in 0 to 3 loop
+				sum := sum + accumulate_sample(i);
+			end loop 
+			
+			count <= count + 1;
+		end if;
+			acc_val <= sum; --send out the accumulated value
+	end process;
+end process;
+end architecture;
