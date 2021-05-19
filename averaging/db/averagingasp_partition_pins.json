@@ -44,39 +44,23 @@
 					"strict" : false
 				},
 				{
-					"name" : "data_out[10]",
-					"strict" : false
-				},
-				{
-					"name" : "data_out[11]",
-					"strict" : false
-				},
-				{
-					"name" : "data_out[12]",
-					"strict" : false
-				},
-				{
 					"name" : "clk",
 					"strict" : false
 				},
 				{
-					"name" : "data_in[0]",
+					"name" : "div_sel[0]",
 					"strict" : false
 				},
 				{
-					"name" : "data_in[13]",
+					"name" : "div_sel[1]",
 					"strict" : false
 				},
 				{
-					"name" : "data_in[14]",
+					"name" : "data_in[6]",
 					"strict" : false
 				},
 				{
-					"name" : "data_in[15]",
-					"strict" : false
-				},
-				{
-					"name" : "data_in[12]",
+					"name" : "data_in[7]",
 					"strict" : false
 				},
 				{
@@ -96,19 +80,19 @@
 					"strict" : false
 				},
 				{
-					"name" : "data_in[4]",
+					"name" : "data_in[12]",
 					"strict" : false
 				},
 				{
-					"name" : "data_in[1]",
+					"name" : "data_in[13]",
 					"strict" : false
 				},
 				{
-					"name" : "data_in[2]",
+					"name" : "data_in[14]",
 					"strict" : false
 				},
 				{
-					"name" : "data_in[3]",
+					"name" : "data_in[15]",
 					"strict" : false
 				},
 				{
@@ -116,11 +100,23 @@
 					"strict" : false
 				},
 				{
-					"name" : "data_in[6]",
+					"name" : "data_in[4]",
 					"strict" : false
 				},
 				{
-					"name" : "data_in[7]",
+					"name" : "data_in[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data_in[0]",
 					"strict" : false
 				}
 			]

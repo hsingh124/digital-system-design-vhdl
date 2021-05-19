@@ -26,16 +26,16 @@ begin
 	begin
 		if rising_edge(clk) then	
 				
-				accumulate_sample(3) <= std_logic_vector(to_unsigned(to_integer(unsigned(prev_val_3)) * 4, prev_val_3'length));
+				accumulate_sample(3) <= std_logic_vector(to_unsigned(to_integer(unsigned(prev_val_3)) * 1, prev_val_3'length));
 				prev_val_3 <= prev_val_2;
 				
-				accumulate_sample(2) <= std_logic_vector(to_unsigned(to_integer(unsigned(prev_val_2)) * 8, prev_val_2'length));
+				accumulate_sample(2) <= std_logic_vector(to_unsigned(to_integer(unsigned(prev_val_2)) * 1, prev_val_2'length));
 				prev_val_2 <= prev_val_1;
 				
-				accumulate_sample(1) <= std_logic_vector(to_unsigned(to_integer(unsigned(prev_val_1)) * 5, prev_val_1'length));
+				accumulate_sample(1) <= std_logic_vector(to_unsigned(to_integer(unsigned(prev_val_1)) * 1, prev_val_1'length));
 				prev_val_1 <= sample_in;
 				
-				accumulate_sample(0) <= std_logic_vector(to_unsigned(to_integer(unsigned(sample_in)) * 2, prev_val_1'length));
+				accumulate_sample(0) <= std_logic_vector(to_unsigned(to_integer(unsigned(sample_in)) * 1, prev_val_1'length));
 			
 			for i in 0 to 3 loop
 				sum := sum + accumulate_sample(i);

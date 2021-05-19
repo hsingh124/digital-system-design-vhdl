@@ -1,0 +1,371 @@
+m255
+K4
+z2
+!s11e vcom 2020.2 2020.04, Apr 19 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/simulation/modelsim
+T_opt
+!s110 1621416390
+VH0W6Uf5^dPRNm:e]cY1a^3
+04 24 21 work averaging_filter_vhd_tst averaging_filter_arch 1
+=4-e454e87b1f08-60a4d9c6-35-2de0
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OE;O;2020.2;71
+R0
+T_opt1
+!s110 1621418758
+V0Xd_D^6JzXf_dEMz==kh_1
+04 30 27 work noise_reduction_filter_vhd_tst noise_reduction_filter_arch 1
+=1-e454e87b1f08-60a4e305-2e9-19ac
+R1
+R2
+n@_opt1
+R3
+Pasp_types
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 78
+w1621413425
+R0
+8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/asp_types.vhd
+F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/asp_types.vhd
+l0
+L3 1
+V_^K4j1zCPAQL_anWEj3mX1
+!s100 0=NQi^K;d@;f9XHfQlVDM0
+Z6 OE;C;2020.2;71
+32
+!s110 1621418744
+!i10b 1
+Z7 !s108 1621418744.000000
+!s90 -reportprogress|300|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/asp_types.vhd|
+!s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/asp_types.vhd|
+!i113 0
+Z8 o-work work
+Z9 tExplicit 1 CvgOpt 0
+Eaveraging_filter
+Z10 w1621416202
+Z11 DPx4 work 9 asp_types 0 22 _^K4j1zCPAQL_anWEj3mX1
+Z12 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z13 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z14 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R4
+R5
+!i122 79
+R0
+Z15 8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/averaging_filter.vhd
+Z16 F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/averaging_filter.vhd
+l0
+L8 1
+V0712I_UHC6HekhQo`zRh;2
+!s100 WPbc^0N?^@k3OF9XP[?B90
+R6
+32
+Z17 !s110 1621418745
+!i10b 1
+R7
+Z18 !s90 -reportprogress|300|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/averaging_filter.vhd|
+Z19 !s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/averaging_filter.vhd|
+!i113 0
+R8
+R9
+Abehaviour
+R11
+R12
+R13
+R14
+R4
+R5
+DEx4 work 16 averaging_filter 0 22 0712I_UHC6HekhQo`zRh;2
+!i122 79
+l30
+L19 77
+VB19obPT8im7D>X>ZUJ67P1
+!s100 P>PBFX?Sihe8I]YHIJdfd0
+R6
+32
+R17
+!i10b 1
+R7
+R18
+R19
+!i113 0
+R8
+R9
+Eaveraging_filter_vhd_tst
+Z20 w1621416362
+R4
+R5
+!i122 67
+R0
+Z21 8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/simulation/modelsim/averaging_filter.vht
+Z22 F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/simulation/modelsim/averaging_filter.vht
+l0
+Z23 L30 1
+VX2clAS@K`B6TTKPjNH7JY2
+!s100 ifa7aOmR@G;mBCL34nD>10
+R6
+32
+!s110 1621416376
+!i10b 1
+Z24 !s108 1621416376.000000
+Z25 !s90 -reportprogress|300|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/simulation/modelsim/averaging_filter.vht|
+Z26 !s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/simulation/modelsim/averaging_filter.vht|
+!i113 0
+R8
+R9
+Aaveraging_filter_arch
+R4
+R5
+DEx4 work 24 averaging_filter_vhd_tst 0 22 X2clAS@K`B6TTKPjNH7JY2
+!i122 67
+l47
+L32 1049
+V<gSE<;N6_B^nSPke;^jUb3
+!s100 hdlfgYJIne98_NXG@lloS3
+R6
+32
+!s110 1621416377
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R8
+R9
+Elower_smoother
+Z27 w1621417364
+R11
+R13
+R14
+R4
+R5
+!i122 80
+R0
+Z28 8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/lower_smoother.vhd
+Z29 F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/lower_smoother.vhd
+l0
+L7 1
+VY_i9b0EZ;:_5g:ofOYBo[2
+!s100 ;Gk7;KhCD_njD^^bO_fB70
+R6
+32
+R17
+!i10b 1
+Z30 !s108 1621418745.000000
+Z31 !s90 -reportprogress|300|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/lower_smoother.vhd|
+Z32 !s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/lower_smoother.vhd|
+!i113 0
+R8
+R9
+Abehaviour
+R11
+R13
+R14
+R4
+R5
+DEx4 work 14 lower_smoother 0 22 Y_i9b0EZ;:_5g:ofOYBo[2
+!i122 80
+l24
+L15 52
+VDAjT1:IY85U8i>VK[Uznn0
+!s100 IZ9]U`kNH_6k<BHUA]c;70
+R6
+32
+R17
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R8
+R9
+Elulu_smoother
+Z33 w1621417388
+R11
+R13
+R14
+R4
+R5
+!i122 81
+R0
+Z34 8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/lulu_smoother.vhd
+Z35 F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/lulu_smoother.vhd
+l0
+L7 1
+V0U9[]1Yl?mV7Nh2DiZ8I^2
+!s100 f[3^RGm?Gn6aNB^jgmP]40
+R6
+32
+R17
+!i10b 1
+R30
+Z36 !s90 -reportprogress|300|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/lulu_smoother.vhd|
+Z37 !s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/lulu_smoother.vhd|
+!i113 0
+R8
+R9
+Abehaviour
+R11
+R13
+R14
+R4
+R5
+DEx4 work 13 lulu_smoother 0 22 0U9[]1Yl?mV7Nh2DiZ8I^2
+!i122 81
+l38
+L15 40
+VRTCMZWlzgVkAIemH==G972
+!s100 26GaEeE[`YU;JM]JcG_zd0
+R6
+32
+R17
+!i10b 1
+R30
+R36
+R37
+!i113 0
+R8
+R9
+Enoise_reduction_filter
+Z38 w1621418502
+R11
+R13
+R14
+R4
+R5
+!i122 82
+R0
+Z39 8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/noise_reduction_filter.vhd
+Z40 F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/noise_reduction_filter.vhd
+l0
+L7 1
+V8U;]AmYW9hd7mEUUYOAPb3
+!s100 dZ@4S7KXhV;:JU2`S[>eG2
+R6
+32
+R17
+!i10b 1
+R30
+Z41 !s90 -reportprogress|300|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/noise_reduction_filter.vhd|
+Z42 !s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/noise_reduction_filter.vhd|
+!i113 0
+R8
+R9
+Abehaviour
+R11
+R13
+R14
+R4
+R5
+DEx4 work 22 noise_reduction_filter 0 22 8U;]AmYW9hd7mEUUYOAPb3
+!i122 82
+l37
+L15 33
+VaPc=FN7`C[blJZ=7o:n7V3
+!s100 4=P0HCihBd<D0PAABioVk2
+R6
+32
+R17
+!i10b 1
+R30
+R41
+R42
+!i113 0
+R8
+R9
+Enoise_reduction_filter_vhd_tst
+Z43 w1621418717
+R4
+R5
+!i122 71
+R0
+Z44 8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/simulation/modelsim/noise_reduction_filter.vht
+Z45 F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/simulation/modelsim/noise_reduction_filter.vht
+l0
+R23
+VmXZ8@38Zn_CNBUP3EecDl1
+!s100 `AD0>_2oFk[`5bkJZoClN0
+R6
+32
+Z46 !s110 1621418737
+!i10b 1
+Z47 !s108 1621418737.000000
+Z48 !s90 -reportprogress|30|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/simulation/modelsim/noise_reduction_filter.vht|
+Z49 !s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/simulation/modelsim/noise_reduction_filter.vht|
+!i113 0
+R8
+R9
+Anoise_reduction_filter_arch
+R4
+R5
+DEx4 work 30 noise_reduction_filter_vhd_tst 0 22 mXZ8@38Zn_CNBUP3EecDl1
+!i122 71
+l45
+L32 1045
+VmX?RjaDJ6_JN];MOMGQUj1
+!s100 eUWb06Q8OX7[B38;iI=oa2
+R6
+32
+R46
+!i10b 1
+R47
+R48
+R49
+!i113 0
+R8
+R9
+Eupper_smoother
+Z50 w1621417413
+R11
+R13
+R14
+R4
+R5
+!i122 83
+R0
+Z51 8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/upper_smoother.vhd
+Z52 F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/upper_smoother.vhd
+l0
+L7 1
+V12@f3;Dj7bhWaBeDX;I<e1
+!s100 LeT]e2NnG`J@TPeL_UOWl1
+R6
+32
+Z53 !s110 1621418746
+!i10b 1
+R30
+Z54 !s90 -reportprogress|300|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/upper_smoother.vhd|
+Z55 !s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/upper_smoother.vhd|
+!i113 0
+R8
+R9
+Abehaviour
+R11
+R13
+R14
+R4
+R5
+DEx4 work 14 upper_smoother 0 22 12@f3;Dj7bhWaBeDX;I<e1
+!i122 83
+l24
+L15 51
+Vo33o3h:zU1^FN7Ndmm2HR2
+!s100 ^O]Pl3H3@QN9g=kd>1b5G1
+R6
+32
+R53
+!i10b 1
+R30
+R54
+R55
+!i113 0
+R8
+R9

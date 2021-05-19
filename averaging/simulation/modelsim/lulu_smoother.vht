@@ -17,7 +17,7 @@
 -- suit user's needs .Comments are provided in each section to help the user  
 -- fill out necessary details.                                                
 -- ***************************************************************************
--- Generated on "05/19/2021 16:55:43"
+-- Generated on "05/19/2021 20:20:46"
                                                             
 -- Vhdl Test Bench template for design  :  lulu_smoother
 -- 
@@ -26,7 +26,6 @@
 
 LIBRARY ieee;                                               
 USE ieee.std_logic_1164.all;                                
-use ieee.numeric_std.all;
 
 ENTITY lulu_smoother_vhd_tst IS
 END lulu_smoother_vhd_tst;
@@ -40,7 +39,7 @@ COMPONENT lulu_smoother
 	PORT (
 	clk : IN STD_LOGIC;
 	data_in : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
-	data_out : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
+	data_out : BUFFER STD_LOGIC_VECTOR(15 DOWNTO 0)
 	);
 END COMPONENT;
 BEGIN
@@ -62,81 +61,7 @@ always : PROCESS
 -- (        )                                                 
 -- variable declarations                                      
 BEGIN                                                         
-        -- code executes for every event on sensitivity list 
-	data_in <= std_logic_vector(to_unsigned(4, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(10, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(3, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(2, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(12, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(0, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(2, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(3, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(4, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(10, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(6, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(7, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(20, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(8, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(0, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(9, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(25, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(11, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(12, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(80, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(13, data_in'length));
-	wait for 10 ns;
-	
-	data_in <= std_logic_vector(to_unsigned(14, data_in'length));
-	wait for 10 ns;
+        -- code executes for every event on sensitivity list  
 WAIT;                                                        
-END PROCESS always;                                         
-
-clk_gen : PROCESS
-BEGIN
-	clk <= '1';
-	wait for 5 ns;
-	clk <= '0';
-	wait for 5 ns;
-END PROCESS clk_gen;
- 
+END PROCESS always;                                          
 END lulu_smoother_arch;

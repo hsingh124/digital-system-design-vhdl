@@ -27,25 +27,25 @@
 # Modifying modelsim.ini
 # vcom -93 -work altera {c:/intelfpga/18.1/quartus/eda/sim_lib/altera_syn_attributes.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:24 on May 19,2021
+# Start time: 20:26:07 on May 19,2021
 # vcom -reportprogress 300 -93 -work altera c:/intelfpga/18.1/quartus/eda/sim_lib/altera_syn_attributes.vhd 
 # -- Loading package STANDARD
 # -- Compiling package altera_syn_attributes
-# End time: 17:55:25 on May 19,2021, Elapsed time: 0:00:01
+# End time: 20:26:07 on May 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera {c:/intelfpga/18.1/quartus/eda/sim_lib/altera_standard_functions.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:25 on May 19,2021
+# Start time: 20:26:07 on May 19,2021
 # vcom -reportprogress 300 -93 -work altera c:/intelfpga/18.1/quartus/eda/sim_lib/altera_standard_functions.vhd 
 # -- Loading package STANDARD
 # -- Compiling package altera_standard_functions
 # -- Compiling package body altera_standard_functions
 # -- Loading package altera_standard_functions
-# End time: 17:55:25 on May 19,2021, Elapsed time: 0:00:00
+# End time: 20:26:07 on May 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera {c:/intelfpga/18.1/quartus/eda/sim_lib/alt_dspbuilder_package.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:25 on May 19,2021
+# Start time: 20:26:07 on May 19,2021
 # vcom -reportprogress 300 -93 -work altera c:/intelfpga/18.1/quartus/eda/sim_lib/alt_dspbuilder_package.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -54,11 +54,11 @@
 # -- Compiling package alt_dspbuilder_package
 # -- Compiling package body alt_dspbuilder_package
 # -- Loading package alt_dspbuilder_package
-# End time: 17:55:25 on May 19,2021, Elapsed time: 0:00:00
+# End time: 20:26:08 on May 19,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera {c:/intelfpga/18.1/quartus/eda/sim_lib/altera_europa_support_lib.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:25 on May 19,2021
+# Start time: 20:26:08 on May 19,2021
 # vcom -reportprogress 300 -93 -work altera c:/intelfpga/18.1/quartus/eda/sim_lib/altera_europa_support_lib.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -69,11 +69,11 @@
 # -- Compiling package altera_europa_support_lib
 # -- Compiling package body altera_europa_support_lib
 # -- Loading package altera_europa_support_lib
-# End time: 17:55:25 on May 19,2021, Elapsed time: 0:00:00
+# End time: 20:26:08 on May 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera {c:/intelfpga/18.1/quartus/eda/sim_lib/altera_primitives_components.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:25 on May 19,2021
+# Start time: 20:26:08 on May 19,2021
 # vcom -reportprogress 300 -93 -work altera c:/intelfpga/18.1/quartus/eda/sim_lib/altera_primitives_components.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -83,11 +83,11 @@
 # -- Compiling package dffeas_pack
 # -- Loading package dffeas_pack
 # -- Compiling package altera_primitives_components
-# End time: 17:55:26 on May 19,2021, Elapsed time: 0:00:01
+# End time: 20:26:08 on May 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera {c:/intelfpga/18.1/quartus/eda/sim_lib/altera_primitives.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:26 on May 19,2021
+# Start time: 20:26:08 on May 19,2021
 # vcom -reportprogress 300 -93 -work altera c:/intelfpga/18.1/quartus/eda/sim_lib/altera_primitives.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -175,7 +175,7 @@
 # -- Compiling architecture BEHAVIOR of alt_bidir_diff
 # -- Compiling entity alt_bidir_buf
 # -- Compiling architecture BEHAVIOR of alt_bidir_buf
-# End time: 17:55:26 on May 19,2021, Elapsed time: 0:00:00
+# End time: 20:26:09 on May 19,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib vhdl_libs/lpm
@@ -187,17 +187,17 @@
 # Modifying modelsim.ini
 # vcom -93 -work lpm {c:/intelfpga/18.1/quartus/eda/sim_lib/220pack.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:26 on May 19,2021
+# Start time: 20:26:09 on May 19,2021
 # vcom -reportprogress 300 -93 -work lpm c:/intelfpga/18.1/quartus/eda/sim_lib/220pack.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package LPM_COMPONENTS
-# End time: 17:55:26 on May 19,2021, Elapsed time: 0:00:00
+# End time: 20:26:09 on May 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work lpm {c:/intelfpga/18.1/quartus/eda/sim_lib/220model.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:26 on May 19,2021
+# Start time: 20:26:09 on May 19,2021
 # vcom -reportprogress 300 -93 -work lpm c:/intelfpga/18.1/quartus/eda/sim_lib/220model.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -293,7 +293,7 @@
 # -- Compiling architecture LPM_SYN of LPM_OUTpad
 # -- Compiling entity LPM_BIpad
 # -- Compiling architecture LPM_SYN of LPM_BIpad
-# End time: 17:55:27 on May 19,2021, Elapsed time: 0:00:01
+# End time: 20:26:10 on May 19,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib vhdl_libs/sgate
@@ -305,7 +305,7 @@
 # Modifying modelsim.ini
 # vcom -93 -work sgate {c:/intelfpga/18.1/quartus/eda/sim_lib/sgate_pack.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:27 on May 19,2021
+# Start time: 20:26:10 on May 19,2021
 # vcom -reportprogress 300 -93 -work sgate c:/intelfpga/18.1/quartus/eda/sim_lib/sgate_pack.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -313,11 +313,11 @@
 # -- Compiling package sgate_pack
 # -- Compiling package body sgate_pack
 # -- Loading package sgate_pack
-# End time: 17:55:27 on May 19,2021, Elapsed time: 0:00:00
+# End time: 20:26:11 on May 19,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work sgate {c:/intelfpga/18.1/quartus/eda/sim_lib/sgate.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:27 on May 19,2021
+# Start time: 20:26:11 on May 19,2021
 # vcom -reportprogress 300 -93 -work sgate c:/intelfpga/18.1/quartus/eda/sim_lib/sgate.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -367,7 +367,7 @@
 # -- Compiling architecture sim_arch of oper_bus_mux
 # -- Compiling entity oper_latch
 # -- Compiling architecture sim_arch of oper_latch
-# End time: 17:55:28 on May 19,2021, Elapsed time: 0:00:01
+# End time: 20:26:11 on May 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib vhdl_libs/altera_mf
@@ -379,17 +379,17 @@
 # Modifying modelsim.ini
 # vcom -93 -work altera_mf {c:/intelfpga/18.1/quartus/eda/sim_lib/altera_mf_components.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:28 on May 19,2021
+# Start time: 20:26:11 on May 19,2021
 # vcom -reportprogress 300 -93 -work altera_mf c:/intelfpga/18.1/quartus/eda/sim_lib/altera_mf_components.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package altera_mf_components
-# End time: 17:55:28 on May 19,2021, Elapsed time: 0:00:00
+# End time: 20:26:12 on May 19,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera_mf {c:/intelfpga/18.1/quartus/eda/sim_lib/altera_mf.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:28 on May 19,2021
+# Start time: 20:26:12 on May 19,2021
 # vcom -reportprogress 300 -93 -work altera_mf c:/intelfpga/18.1/quartus/eda/sim_lib/altera_mf.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -628,7 +628,7 @@
 # -- Compiling architecture sim_sld_virtual_jtag_basic of sld_virtual_jtag_basic
 # -- Compiling entity altsource_probe
 # -- Compiling architecture sim_altsource_probe of altsource_probe
-# End time: 17:55:30 on May 19,2021, Elapsed time: 0:00:02
+# End time: 20:26:14 on May 19,2021, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # 
 # vlib vhdl_libs/altera_lnsim
@@ -640,21 +640,21 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim {c:/intelfpga/18.1/quartus/eda/sim_lib/mentor/altera_lnsim_for_vhdl.sv}
 # Model Technology ModelSim SE vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:30 on May 19,2021
+# Start time: 20:26:14 on May 19,2021
 # vlog -reportprogress 300 -sv -work altera_lnsim c:/intelfpga/18.1/quartus/eda/sim_lib/mentor/altera_lnsim_for_vhdl.sv 
 # 
 # Top level modules:
-# End time: 17:55:31 on May 19,2021, Elapsed time: 0:00:01
+# End time: 20:26:15 on May 19,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work altera_lnsim {c:/intelfpga/18.1/quartus/eda/sim_lib/altera_lnsim_components.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:31 on May 19,2021
+# Start time: 20:26:15 on May 19,2021
 # vcom -reportprogress 300 -93 -work altera_lnsim c:/intelfpga/18.1/quartus/eda/sim_lib/altera_lnsim_components.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package altera_lnsim_components
-# End time: 17:55:31 on May 19,2021, Elapsed time: 0:00:00
+# End time: 20:26:16 on May 19,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib vhdl_libs/cyclonev
@@ -666,15 +666,15 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev {c:/intelfpga/18.1/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim SE vlog 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:31 on May 19,2021
+# Start time: 20:26:18 on May 19,2021
 # vlog -reportprogress 300 -vlog01compat -work cyclonev c:/intelfpga/18.1/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 17:55:33 on May 19,2021, Elapsed time: 0:00:02
+# End time: 20:26:20 on May 19,2021, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vcom -93 -work cyclonev {c:/intelfpga/18.1/quartus/eda/sim_lib/cyclonev_atoms.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:33 on May 19,2021
+# Start time: 20:26:20 on May 19,2021
 # vcom -reportprogress 300 -93 -work cyclonev c:/intelfpga/18.1/quartus/eda/sim_lib/cyclonev_atoms.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -814,11 +814,11 @@
 # -- Compiling architecture behavior of cyclonev_ir_fifo_userdes
 # -- Compiling entity cyclonev_oscillator
 # -- Compiling architecture behavior of cyclonev_oscillator
-# End time: 17:55:34 on May 19,2021, Elapsed time: 0:00:01
+# End time: 20:26:21 on May 19,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 1
 # vcom -93 -work cyclonev {c:/intelfpga/18.1/quartus/eda/sim_lib/cyclonev_components.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:34 on May 19,2021
+# Start time: 20:26:21 on May 19,2021
 # vcom -reportprogress 300 -93 -work cyclonev c:/intelfpga/18.1/quartus/eda/sim_lib/cyclonev_components.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -827,7 +827,7 @@
 # -- Loading package VITAL_Primitives
 # -- Loading package cyclonev_atom_pack
 # -- Compiling package cyclonev_components
-# End time: 17:55:35 on May 19,2021, Elapsed time: 0:00:01
+# End time: 20:26:22 on May 19,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -841,82 +841,80 @@
 # 
 # vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/asp_types.vhd}
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:35 on May 19,2021
+# Start time: 20:26:22 on May 19,2021
 # vcom -reportprogress 300 -93 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/asp_types.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package asp_types
-# End time: 17:55:35 on May 19,2021, Elapsed time: 0:00:00
+# End time: 20:26:23 on May 19,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lower_smoother.vhd}
+# vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd}
+vcom -reportprogress 30 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:35 on May 19,2021
-# vcom -reportprogress 300 -93 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lower_smoother.vhd 
+# Start time: 20:26:23 on May 19,2021
+# vcom -reportprogress 300 -93 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd 
+# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 20:26:23 on May 19,2021
+# vcom -reportprogress 30 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht 
 # -- Loading package STANDARD
+# ** Warning: (vcom-6) -- Waiting for lock by "hsin849@EN399254, pid = 11644
+# ". Lockfile is "//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/rtl_work/_lock".
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Loading package asp_types
-# -- Compiling entity lower_smoother
-# -- Compiling architecture behaviour of lower_smoother
-# End time: 17:55:35 on May 19,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/upper_smoother.vhd}
-# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:35 on May 19,2021
-# vcom -reportprogress 300 -93 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/upper_smoother.vhd 
+# -- Compiling entity averaging_filter
+# -- Compiling architecture behaviour of averaging_filter
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd(34): (vcom-1339) Case statement choices cover only 4 out of 81 cases.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd(59): (vcom-1339) Case statement choices cover only 4 out of 81 cases.
+# ** Note: //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd(71): VHDL Compiler exiting
+# End time: 20:26:23 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package asp_types
-# -- Compiling entity upper_smoother
-# -- Compiling architecture behaviour of upper_smoother
-# End time: 17:55:36 on May 19,2021, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lulu_smoother.vhd}
+# -- Compiling entity averaging_filter_vhd_tst
+# -- Compiling architecture averaging_filter_arch of averaging_filter_vhd_tst
+vcom -reportprogress 30 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht
+# End time: 20:26:24 on May 19,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:55:36 on May 19,2021
-# vcom -reportprogress 300 -93 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lulu_smoother.vhd 
+# Start time: 20:26:24 on May 19,2021
+# vcom -reportprogress 30 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package asp_types
-# -- Compiling entity lulu_smoother
-# -- Compiling architecture behaviour of lulu_smoother
-# End time: 17:55:36 on May 19,2021, Elapsed time: 0:00:00
+# -- Compiling entity averaging_filter_vhd_tst
+# -- Compiling architecture averaging_filter_arch of averaging_filter_vhd_tst
+# End time: 20:26:24 on May 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/lulu_smoother.vht
+vcom -reportprogress 30 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:56:27 on May 19,2021
-# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/lulu_smoother.vht 
+# Start time: 20:26:25 on May 19,2021
+# vcom -reportprogress 30 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity lulu_smoother_vhd_tst
-# -- Compiling architecture lulu_smoother_arch of lulu_smoother_vhd_tst
-# End time: 17:56:27 on May 19,2021, Elapsed time: 0:00:00
+# -- Compiling entity averaging_filter_vhd_tst
+# -- Compiling architecture averaging_filter_arch of averaging_filter_vhd_tst
+# End time: 20:26:25 on May 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/asp_types.vhd
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:56:32 on May 19,2021
+# Start time: 20:26:34 on May 19,2021
 # vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/asp_types.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package asp_types
-# End time: 17:56:32 on May 19,2021, Elapsed time: 0:00:00
+# End time: 20:26:35 on May 19,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:56:32 on May 19,2021
+# Start time: 20:26:35 on May 19,2021
 # vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -929,11 +927,59 @@ vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin84
 # ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd(34): (vcom-1339) Case statement choices cover only 4 out of 81 cases.
 # ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd(59): (vcom-1339) Case statement choices cover only 4 out of 81 cases.
 # ** Note: //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd(71): VHDL Compiler exiting
-# End time: 17:56:32 on May 19,2021, Elapsed time: 0:00:00
+# End time: 20:26:35 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vsim -voptargs=+acc work.averaging_filter_vhd_tst
+# vsim -voptargs="+acc" work.averaging_filter_vhd_tst 
+# Start time: 20:26:41 on May 19,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht(48): (vopt-1447) Instance "i1" is bound to entity "work.averaging_filter" that has no architectures.
+# ** Warning: //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht(55): (vopt-3473) Component instance "i1 : averaging_filter" is not bound.
+#         Region: /averaging_filter_vhd_tst
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.averaging_filter_vhd_tst(averaging_filter_arch)#1
+# ** Error: (vsim-3173) Entity '//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/rtl_work.averaging_filter' has no architecture.
+# Load interrupted
+# Error loading design
+# End time: 20:26:43 on May 19,2021, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 2
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/asp_types.vhd
+# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 20:28:13 on May 19,2021
+# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/asp_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package asp_types
+# End time: 20:28:13 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd
+# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 20:28:13 on May 19,2021
+# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package asp_types
+# -- Compiling entity averaging_filter
+# -- Compiling architecture behaviour of averaging_filter
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd(34): (vcom-1339) Case statement choices cover only 4 out of 81 cases.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd(59): (vcom-1339) Case statement choices cover only 4 out of 81 cases.
+# ** Note: //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd(71): VHDL Compiler exiting
+# End time: 20:28:14 on May 19,2021, Elapsed time: 0:00:01
 # Errors: 2, Warnings: 0
 vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lower_smoother.vhd
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:56:32 on May 19,2021
+# Start time: 20:28:14 on May 19,2021
 # vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lower_smoother.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -943,11 +989,11 @@ vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin84
 # -- Loading package asp_types
 # -- Compiling entity lower_smoother
 # -- Compiling architecture behaviour of lower_smoother
-# End time: 17:56:32 on May 19,2021, Elapsed time: 0:00:00
+# End time: 20:28:14 on May 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lulu_smoother.vhd
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:56:33 on May 19,2021
+# Start time: 20:28:14 on May 19,2021
 # vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lulu_smoother.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -957,11 +1003,11 @@ vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin84
 # -- Loading package asp_types
 # -- Compiling entity lulu_smoother
 # -- Compiling architecture behaviour of lulu_smoother
-# End time: 17:56:33 on May 19,2021, Elapsed time: 0:00:00
+# End time: 20:28:14 on May 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/upper_smoother.vhd
 # Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
-# Start time: 17:56:33 on May 19,2021
+# Start time: 20:28:14 on May 19,2021
 # vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/upper_smoother.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -971,32 +1017,383 @@ vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin84
 # -- Loading package asp_types
 # -- Compiling entity upper_smoother
 # -- Compiling architecture behaviour of upper_smoother
-# End time: 17:56:33 on May 19,2021, Elapsed time: 0:00:00
+# End time: 20:28:14 on May 19,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim -voptargs=+acc work.lulu_smoother_vhd_tst
-# vsim -voptargs="+acc" work.lulu_smoother_vhd_tst 
-# Start time: 17:56:37 on May 19,2021
-# ** Note: (vsim-3812) Design is being optimized...
+vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht
+# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 20:28:37 on May 19,2021
+# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity averaging_filter_vhd_tst
+# -- Compiling architecture averaging_filter_arch of averaging_filter_vhd_tst
+vcom -reportprogress 30 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht
+# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 20:28:38 on May 19,2021
+# vcom -reportprogress 30 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht 
+# ** Warning: (vcom-6) -- Waiting for lock by "hsin849@EN399254, pid = 12660
+# ". Lockfile is "//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/rtl_work/_lock".
+# End time: 20:28:38 on May 19,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity averaging_filter_vhd_tst
+# -- Compiling architecture averaging_filter_arch of averaging_filter_vhd_tst
+# End time: 20:28:39 on May 19,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht
+# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 20:28:43 on May 19,2021
+# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity averaging_filter_vhd_tst
+# -- Compiling architecture averaging_filter_arch of averaging_filter_vhd_tst
+# End time: 20:28:43 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht
+# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 20:28:46 on May 19,2021
+# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity averaging_filter_vhd_tst
+# -- Compiling architecture averaging_filter_arch of averaging_filter_vhd_tst
+# End time: 20:28:46 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.averaging_filter_vhd_tst
+# vsim -voptargs="+acc" work.averaging_filter_vhd_tst 
+# Start time: 20:28:52 on May 19,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.lulu_smoother_vhd_tst(lulu_smoother_arch)#1
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.asp_types
-# Loading work.lulu_smoother(behaviour)#1
-# Loading work.lower_smoother(behaviour)#1
-# Loading work.upper_smoother(behaviour)#1
-add wave -position insertpoint sim:/lulu_smoother_vhd_tst/i1/*
-add wave -position insertpoint sim:/lulu_smoother_vhd_tst/i1/l1/*
-add wave -position insertpoint sim:/lulu_smoother_vhd_tst/i1/u1/*
-add wave -position insertpoint sim:/lulu_smoother_vhd_tst/i1/l2/*
-add wave -position insertpoint sim:/lulu_smoother_vhd_tst/i1/u2/*
-run
-run
-run
-add wave -position 9  -autoscale 1 -format Literal -height 17
-# Missing signal name or pattern.
-# End time: 18:05:08 on May 19,2021, Elapsed time: 0:08:31
+# Loading work.averaging_filter_vhd_tst(averaging_filter_arch)#1
+# ** Error: (vsim-3173) Entity '//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/rtl_work.averaging_filter' has no architecture.
+# Load interrupted
+# Error loading design
+# End time: 20:28:53 on May 19,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht
+# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 20:32:34 on May 19,2021
+# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity averaging_filter_vhd_tst
+# -- Compiling architecture averaging_filter_arch of averaging_filter_vhd_tst
+# End time: 20:32:35 on May 19,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho
+# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 20:32:35 on May 19,2021
+# vcom -reportprogress 30 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package altera_lnsim_components
+# -- Loading package cyclonev_atom_pack
+# -- Loading package cyclonev_components
+# -- Compiling entity averaging_filter
+# -- Compiling architecture structure of averaging_filter
+# End time: 20:32:36 on May 19,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/lower_smoother.vht
+# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 20:32:36 on May 19,2021
+# vcom -reportprogress 30 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/lower_smoother.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity lower_smoother_vhd_tst
+# -- Compiling architecture lower_smoother_arch of lower_smoother_vhd_tst
+# End time: 20:32:36 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/lulu_smoother.vht
+# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 20:32:36 on May 19,2021
+# vcom -reportprogress 30 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/lulu_smoother.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity lulu_smoother_vhd_tst
+# -- Compiling architecture lulu_smoother_arch of lulu_smoother_vhd_tst
+# End time: 20:32:36 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/asp_types.vhd
+# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 20:32:45 on May 19,2021
+# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/asp_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package asp_types
+# End time: 20:32:45 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd
+# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 20:32:46 on May 19,2021
+# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package asp_types
+# -- Compiling entity averaging_filter
+# -- Compiling architecture behaviour of averaging_filter
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd(34): (vcom-1339) Case statement choices cover only 4 out of 81 cases.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd(59): (vcom-1339) Case statement choices cover only 4 out of 81 cases.
+# ** Note: //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd(71): VHDL Compiler exiting
+# End time: 20:32:46 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lower_smoother.vhd
+# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 20:32:46 on May 19,2021
+# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lower_smoother.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package asp_types
+# -- Compiling entity lower_smoother
+# -- Compiling architecture behaviour of lower_smoother
+# End time: 20:32:46 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lulu_smoother.vhd
+# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 20:32:46 on May 19,2021
+# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lulu_smoother.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package asp_types
+# -- Compiling entity lulu_smoother
+# -- Compiling architecture behaviour of lulu_smoother
+# End time: 20:32:46 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/upper_smoother.vhd
+# Model Technology ModelSim SE vcom 2020.2 Compiler 2020.04 Apr 19 2020
+# Start time: 20:32:46 on May 19,2021
+# vcom -reportprogress 300 -work work //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/upper_smoother.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package asp_types
+# -- Compiling entity upper_smoother
+# -- Compiling architecture behaviour of upper_smoother
+# End time: 20:32:47 on May 19,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.averaging_filter_vhd_tst
+# vsim -voptargs="+acc" work.averaging_filter_vhd_tst 
+# Start time: 20:32:55 on May 19,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13) Recompile work.averaging_filter(structure) because work.averaging_filter has changed.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(510): (vopt-1141) Identifier "cyclonev_io_obuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(523): (vopt-1141) Identifier "cyclonev_io_obuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(536): (vopt-1141) Identifier "cyclonev_io_obuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(549): (vopt-1141) Identifier "cyclonev_io_obuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(562): (vopt-1141) Identifier "cyclonev_io_obuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(575): (vopt-1141) Identifier "cyclonev_io_obuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(588): (vopt-1141) Identifier "cyclonev_io_obuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(601): (vopt-1141) Identifier "cyclonev_io_obuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(614): (vopt-1141) Identifier "cyclonev_io_obuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(627): (vopt-1141) Identifier "cyclonev_io_obuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(640): (vopt-1141) Identifier "cyclonev_io_obuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(653): (vopt-1141) Identifier "cyclonev_io_obuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(666): (vopt-1141) Identifier "cyclonev_io_obuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(679): (vopt-1141) Identifier "cyclonev_io_obuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(692): (vopt-1141) Identifier "cyclonev_io_obuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(705): (vopt-1141) Identifier "cyclonev_io_obuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(718): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(729): (vopt-1141) Identifier "cyclonev_clkena" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(743): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(754): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(765): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(776): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(787): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(798): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(809): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(820): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(839): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(850): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(861): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(883): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(897): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(918): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(932): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(953): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(967): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(987): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1001): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1016): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1038): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1058): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1072): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1091): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1105): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1126): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1140): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1158): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1176): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1190): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1207): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1228): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1242): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1262): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1280): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1301): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1315): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1331): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1352): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1366): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1381): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1397): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1411): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1426): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1442): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1463): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1477): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1498): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1512): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1535): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1550): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1566): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1581): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1597): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1611): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1625): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1646): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1660): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1676): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1698): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1712): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1732): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1747): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1764): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1781): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1798): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1815): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1831): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1847): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1865): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1883): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1901): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1919): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1937): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1954): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1965): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1976): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1987): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(1998): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2009): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2020): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2031): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2042): (vopt-1141) Identifier "cyclonev_io_ibuf" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2053): (vopt-1141) Identifier "cyclonev_ram_block" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2104): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2123): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2137): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2152): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2166): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2189): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2207): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2230): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2246): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2265): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2280): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2302): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2325): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2341): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2360): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2375): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2397): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2420): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2436): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2455): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2470): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2492): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2515): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2531): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2550): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2565): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2587): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2610): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2626): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2645): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2660): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2682): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2705): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2721): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2740): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2755): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2777): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2800): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2816): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2835): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2850): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2872): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2895): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2911): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2930): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2945): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2967): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(2990): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3006): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3025): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3040): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3062): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3085): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3101): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3120): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3135): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3150): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3172): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3195): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3211): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3230): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3245): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3260): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3282): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3305): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3321): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3340): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3355): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3370): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3392): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3415): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3431): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3450): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3465): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3487): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3510): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3526): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3545): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3560): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3582): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3605): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3621): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3638): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3653): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3668): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3690): (vopt-1141) Identifier "cyclonev_lcell_comb" does not identify a component declaration.
+# ** Error (suppressible): //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averagingasp.vho(3709): (vopt-1141) Identifier "dffeas" does not identify a component declaration.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=189, Warnings=1.
+# Error loading design
+# End time: 20:32:56 on May 19,2021, Elapsed time: 0:00:01
+# Errors: 189, Warnings: 1

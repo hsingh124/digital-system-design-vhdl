@@ -44,6 +44,6 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/correlation/types.vhd}
-vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/correlation/correlation.vhd}
+vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/correlation/types.vhd}
+vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/correlation/correlation.vhd}
 

@@ -45,7 +45,5 @@ vlib rtl_work
 vmap work rtl_work
 
 vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/asp_types.vhd}
-vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lower_smoother.vhd}
-vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/upper_smoother.vhd}
-vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lulu_smoother.vhd}
+vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd}
 
