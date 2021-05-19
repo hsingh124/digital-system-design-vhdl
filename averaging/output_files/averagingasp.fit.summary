@@ -1,16 +1,16 @@
-Fitter Status : Successful - Sat May 15 21:20:13 2021
+Fitter Status : Successful - Wed May 19 17:54:05 2021
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : averagingasp
-Top-level Entity Name : averaging_filter
+Top-level Entity Name : lulu_smoother
 Family : Cyclone V
 Device : 5CSEMA5F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 26 / 32,070 ( < 1 % )
-Total registers : 49
+Logic utilization (in ALMs) : 283 / 32,070 ( < 1 % )
+Total registers : 443
 Total pins : 33 / 457 ( 7 % )
 Total virtual pins : 0
-Total block memory bits : 640 / 4,065,280 ( < 1 % )
-Total RAM Blocks : 1 / 397 ( < 1 % )
+Total block memory bits : 0 / 4,065,280 ( 0 % )
+Total RAM Blocks : 0 / 397 ( 0 % )
 Total DSP Blocks : 0 / 87 ( 0 % )
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0

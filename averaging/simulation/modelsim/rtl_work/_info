@@ -10,10 +10,10 @@ z2
 cModel Technology
 Z0 d//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim
 T_opt
-!s110 1621139141
-VV8G[Q]G=E`YI_O@gL0?z>1
-04 24 21 work averaging_filter_vhd_tst averaging_filter_arch 1
-=1-e454e865c548-60a09ec5-190-3468
+!s110 1621403797
+V9`^mja1J9ce;V5ZVFPcHc1
+04 21 18 work lulu_smoother_vhd_tst lulu_smoother_arch 1
+=1-e454e87b1f08-60a4a895-155-e14
 o-quiet -auto_acc_if_foreign -work work +acc
 tCvgOpt 0
 n@_opt
@@ -32,51 +32,76 @@ V_^K4j1zCPAQL_anWEj3mX1
 !s100 0=NQi^K;d@;f9XHfQlVDM0
 Z3 OE;C;2020.2;71
 32
-Z4 !s110 1621139137
+Z4 !s110 1621403792
 !i10b 1
-Z5 !s108 1621139137.000000
+Z5 !s108 1621403792.000000
 !s90 -reportprogress|300|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/asp_types.vhd|
 !s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/asp_types.vhd|
 !i113 0
 Z6 o-work work
 Z7 tExplicit 1 CvgOpt 0
 Eaveraging_filter
-Z8 w1621075694
-Z9 DPx4 work 9 asp_types 0 22 _^K4j1zCPAQL_anWEj3mX1
-Z10 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z11 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+w1621389717
+Z8 DPx4 work 9 asp_types 0 22 _^K4j1zCPAQL_anWEj3mX1
+Z9 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z10 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R1
 R2
 !i122 6
 R0
-Z12 8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd
-Z13 F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd
+8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd
+F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd
 l0
 L7 1
-VKTKJ@2KlV2B``<Y_2a]dW1
-!s100 DSDd8f^8G7<JeDcjBQaVl1
+VGje9GW?U?[VC?GFHRkXVG1
+!s100 Bck1CI[h?G5PK`I6LJHRK3
 R3
 32
 R4
 !i10b 1
 R5
-Z14 !s90 -reportprogress|300|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd|
-Z15 !s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd|
+!s90 -reportprogress|300|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd|
+!s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/averaging_filter.vhd|
+!i113 0
+R6
+R7
+Elower_smoother
+Z11 w1621403506
+R8
+R9
+R10
+R1
+R2
+!i122 7
+R0
+Z12 8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lower_smoother.vhd
+Z13 F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lower_smoother.vhd
+l0
+L7 1
+VY_i9b0EZ;:_5g:ofOYBo[2
+!s100 ;Gk7;KhCD_njD^^bO_fB70
+R3
+32
+R4
+!i10b 1
+R5
+Z14 !s90 -reportprogress|300|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lower_smoother.vhd|
+Z15 !s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lower_smoother.vhd|
 !i113 0
 R6
 R7
 Abehaviour
+R8
 R9
 R10
-R11
 R1
 R2
-DEx4 work 16 averaging_filter 0 22 KTKJ@2KlV2B``<Y_2a]dW1
-!i122 6
-l32
-L18 58
-Vg=dQC2j2O4M^PhgjO?1dM1
-!s100 6D:ii^BZI72^HzU2ZiVeI2
+DEx4 work 14 lower_smoother 0 22 Y_i9b0EZ;:_5g:ofOYBo[2
+!i122 7
+l24
+L15 52
+V;7eIomLiPAKl0_A<bh2Dk2
+!s100 j>?4ZP06J4ahO^9z_m4`Q0
 R3
 32
 R4
@@ -87,37 +112,43 @@ R15
 !i113 0
 R6
 R7
-Eaveraging_filter_vhd_tst
-Z16 w1621075576
+Elulu_smoother
+Z16 w1621399890
+R8
+R9
+R10
 R1
 R2
-!i122 2
+!i122 8
 R0
-Z17 8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht
-Z18 F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht
+Z17 8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lulu_smoother.vhd
+Z18 F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lulu_smoother.vhd
 l0
-L30 1
-VX2clAS@K`B6TTKPjNH7JY2
-!s100 ifa7aOmR@G;mBCL34nD>10
+L7 1
+V0U9[]1Yl?mV7Nh2DiZ8I^2
+!s100 f[3^RGm?Gn6aNB^jgmP]40
 R3
 32
-Z19 !s110 1621139130
+Z19 !s110 1621403793
 !i10b 1
-Z20 !s108 1621139130.000000
-Z21 !s90 -reportprogress|300|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht|
-Z22 !s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/averaging_filter.vht|
+Z20 !s108 1621403793.000000
+Z21 !s90 -reportprogress|300|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lulu_smoother.vhd|
+Z22 !s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/lulu_smoother.vhd|
 !i113 0
 R6
 R7
-Aaveraging_filter_arch
+Abehaviour
+R8
+R9
+R10
 R1
 R2
-DEx4 work 24 averaging_filter_vhd_tst 0 22 X2clAS@K`B6TTKPjNH7JY2
-!i122 2
-l45
-L32 69
-V1RWY^@iKo?F7]n_c9kCG21
-!s100 :RoOH1XZO0fEeQKFKRK1_0
+DEx4 work 13 lulu_smoother 0 22 0U9[]1Yl?mV7Nh2DiZ8I^2
+!i122 8
+l38
+L15 40
+VRTCMZWlzgVkAIemH==G972
+!s100 26GaEeE[`YU;JM]JcG_zd0
 R3
 32
 R19
@@ -125,6 +156,96 @@ R19
 R20
 R21
 R22
+!i113 0
+R6
+R7
+Elulu_smoother_vhd_tst
+Z23 w1621401774
+Z24 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+!i122 4
+R0
+Z25 8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/lulu_smoother.vht
+Z26 F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/lulu_smoother.vht
+l0
+L31 1
+VEHl<6DFBP3aK<<cZ593`B3
+!s100 z87YQgX^`<XM:?86iem1J3
+R3
+32
+Z27 !s110 1621403787
+!i10b 1
+Z28 !s108 1621403787.000000
+Z29 !s90 -reportprogress|300|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/lulu_smoother.vht|
+Z30 !s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/simulation/modelsim/lulu_smoother.vht|
+!i113 0
+R6
+R7
+Alulu_smoother_arch
+R24
+R1
+R2
+DEx4 work 21 lulu_smoother_vhd_tst 0 22 EHl<6DFBP3aK<<cZ593`B3
+!i122 4
+l46
+L33 110
+V4AoeE[abOen4^OOPAm2_`3
+!s100 FmC?h1T4^KGD?hIGZ]GKn1
+R3
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 0
+R6
+R7
+Eupper_smoother
+Z31 w1621402764
+R8
+R9
+R10
+R1
+R2
+!i122 9
+R0
+Z32 8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/upper_smoother.vhd
+Z33 F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/upper_smoother.vhd
+l0
+L7 1
+V12@f3;Dj7bhWaBeDX;I<e1
+!s100 LeT]e2NnG`J@TPeL_UOWl1
+R3
+32
+R19
+!i10b 1
+R20
+Z34 !s90 -reportprogress|300|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/upper_smoother.vhd|
+Z35 !s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/averaging/upper_smoother.vhd|
+!i113 0
+R6
+R7
+Abehaviour
+R8
+R9
+R10
+R1
+R2
+DEx4 work 14 upper_smoother 0 22 12@f3;Dj7bhWaBeDX;I<e1
+!i122 9
+l24
+L15 51
+V`JISXz4ahFAl79WO^L7Tk2
+!s100 a;8UVIUQ<B8ilEizdKbJf1
+R3
+32
+R19
+!i10b 1
+R20
+R34
+R35
 !i113 0
 R6
 R7

@@ -1,5 +1,5 @@
 Assembler report for averagingasp
-Sat May 15 21:20:27 2021
+Wed May 19 17:54:15 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: /Desktop/hsin849/averaging/output_files/averagingasp.sof
+  5. Assembler Device Options: /Desktop/hsin849/digital_system_design_vhdl/averaging/output_files/averagingasp.sof
   6. Assembler Messages
 
 
@@ -37,9 +37,9 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sat May 15 21:20:27 2021 ;
+; Assembler Status      ; Successful - Wed May 19 17:54:15 2021 ;
 ; Revision Name         ; averagingasp                          ;
-; Top-level Entity Name ; averaging_filter                      ;
+; Top-level Entity Name ; lulu_smoother                         ;
 ; Family                ; Cyclone V                             ;
 ; Device                ; 5CSEMA5F31C6                          ;
 +-----------------------+---------------------------------------+
@@ -52,23 +52,23 @@ refer to the applicable agreement for further details.
 +--------+---------+---------------+
 
 
-+----------------------------------------------------------+
-; Assembler Generated Files                                ;
-+----------------------------------------------------------+
-; File Name                                                ;
-+----------------------------------------------------------+
-; /Desktop/hsin849/averaging/output_files/averagingasp.sof ;
-+----------------------------------------------------------+
++-------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                           ;
++-------------------------------------------------------------------------------------+
+; File Name                                                                           ;
++-------------------------------------------------------------------------------------+
+; /Desktop/hsin849/digital_system_design_vhdl/averaging/output_files/averagingasp.sof ;
++-------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Assembler Device Options: /Desktop/hsin849/averaging/output_files/averagingasp.sof ;
-+----------------+-------------------------------------------------------------------+
-; Option         ; Setting                                                           ;
-+----------------+-------------------------------------------------------------------+
-; JTAG usercode  ; 0x00B5470E                                                        ;
-; Checksum       ; 0x00B5470E                                                        ;
-+----------------+-------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: /Desktop/hsin849/digital_system_design_vhdl/averaging/output_files/averagingasp.sof ;
++----------------+----------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                      ;
++----------------+----------------------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x00BA1722                                                                                   ;
+; Checksum       ; 0x00BA1722                                                                                   ;
++----------------+----------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -77,14 +77,14 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Sat May 15 21:20:18 2021
+    Info: Processing started: Wed May 19 17:54:09 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off averagingasp -c averagingasp
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4839 megabytes
-    Info: Processing ended: Sat May 15 21:20:27 2021
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:06
+    Info: Processing ended: Wed May 19 17:54:15 2021
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:05
 
 
