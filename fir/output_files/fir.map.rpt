@@ -1,5 +1,5 @@
 Analysis & Synthesis report for fir
-Mon May 17 19:22:24 2021
+Wed May 19 22:45:32 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -13,11 +13,12 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Registers Removed During Synthesis
-  9. General Register Statistics
- 10. Post-Synthesis Netlist Statistics for Top Partition
- 11. Elapsed Time Per Partition
- 12. Analysis & Synthesis Messages
+  8. Analysis & Synthesis DSP Block Usage Summary
+  9. Registers Removed During Synthesis
+ 10. General Register Statistics
+ 11. Post-Synthesis Netlist Statistics for Top Partition
+ 12. Elapsed Time Per Partition
+ 13. Analysis & Synthesis Messages
 
 
 
@@ -43,17 +44,17 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon May 17 19:22:24 2021           ;
+; Analysis & Synthesis Status     ; Successful - Wed May 19 22:45:32 2021           ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                   ; fir                                             ;
 ; Top-level Entity Name           ; fir                                             ;
 ; Family                          ; Cyclone V                                       ;
 ; Logic utilization (in ALMs)     ; N/A                                             ;
-; Total registers                 ; 102                                             ;
+; Total registers                 ; 109                                             ;
 ; Total pins                      ; 33                                              ;
 ; Total virtual pins              ; 0                                               ;
 ; Total block memory bits         ; 0                                               ;
-; Total DSP Blocks                ; 0                                               ;
+; Total DSP Blocks                ; 1                                               ;
 ; Total HSSI RX PCSs              ; 0                                               ;
 ; Total HSSI PMA RX Deserializers ; 0                                               ;
 ; Total HSSI TX PCSs              ; 0                                               ;
@@ -181,25 +182,25 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 56        ;
+; Estimate of Logic utilization (ALMs needed) ; 60        ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 71        ;
+; Combinational ALUT usage for logic          ; 62        ;
 ;     -- 7 input functions                    ; 0         ;
 ;     -- 6 input functions                    ; 0         ;
 ;     -- 5 input functions                    ; 0         ;
 ;     -- 4 input functions                    ; 0         ;
-;     -- <=3 input functions                  ; 71        ;
+;     -- <=3 input functions                  ; 62        ;
 ;                                             ;           ;
-; Dedicated logic registers                   ; 102       ;
+; Dedicated logic registers                   ; 109       ;
 ;                                             ;           ;
 ; I/O pins                                    ; 33        ;
 ;                                             ;           ;
-; Total DSP Blocks                            ; 0         ;
+; Total DSP Blocks                            ; 1         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 102       ;
-; Total fan-out                               ; 477       ;
-; Average fan-out                             ; 2.00      ;
+; Maximum fan-out                             ; 109       ;
+; Total fan-out                               ; 461       ;
+; Average fan-out                             ; 1.94      ;
 +---------------------------------------------+-----------+
 
 
@@ -208,9 +209,21 @@ refer to the applicable agreement for further details.
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
-; |fir                       ; 71 (71)             ; 102 (102)                 ; 0                 ; 0          ; 33   ; 0            ; |fir                ; fir         ; work         ;
+; |fir                       ; 62 (62)             ; 109 (109)                 ; 0                 ; 1          ; 33   ; 0            ; |fir                ; fir         ; work         ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-----------------------------------------------+
+; Analysis & Synthesis DSP Block Usage Summary  ;
++---------------------------------+-------------+
+; Statistic                       ; Number Used ;
++---------------------------------+-------------+
+; Two Independent 18x18           ; 1           ;
+; Total number of DSP blocks      ; 1           ;
+;                                 ;             ;
+; Fixed Point Unsigned Multiplier ; 1           ;
++---------------------------------+-------------+
 
 
 +---------------------------------------------------------------------------------+
@@ -218,29 +231,25 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------+----------------------------------------+
 ; Register name                          ; Reason for Removal                     ;
 +----------------------------------------+----------------------------------------+
-; accumulate_sample[2][0]                ; Stuck at GND due to stuck port data_in ;
-; accumulate_sample[2][1]                ; Stuck at GND due to stuck port data_in ;
-; accumulate_sample[2][2]                ; Stuck at GND due to stuck port data_in ;
+; accumulate_sample[0][0]                ; Stuck at GND due to stuck port data_in ;
 ; accumulate_sample[3][0]                ; Stuck at GND due to stuck port data_in ;
-; accumulate_sample[3][1]                ; Stuck at GND due to stuck port data_in ;
+; prev_val_1[14]                         ; Merged with accumulate_sample[0][15]   ;
+; prev_val_1[13]                         ; Merged with accumulate_sample[0][14]   ;
+; prev_val_1[12]                         ; Merged with accumulate_sample[0][13]   ;
+; prev_val_1[11]                         ; Merged with accumulate_sample[0][12]   ;
+; prev_val_1[10]                         ; Merged with accumulate_sample[0][11]   ;
+; prev_val_1[9]                          ; Merged with accumulate_sample[0][10]   ;
+; prev_val_1[8]                          ; Merged with accumulate_sample[0][9]    ;
+; prev_val_1[7]                          ; Merged with accumulate_sample[0][8]    ;
+; prev_val_1[6]                          ; Merged with accumulate_sample[0][7]    ;
+; prev_val_1[5]                          ; Merged with accumulate_sample[0][6]    ;
+; prev_val_1[4]                          ; Merged with accumulate_sample[0][5]    ;
+; prev_val_1[3]                          ; Merged with accumulate_sample[0][4]    ;
+; prev_val_1[2]                          ; Merged with accumulate_sample[0][3]    ;
+; prev_val_1[1]                          ; Merged with accumulate_sample[0][2]    ;
+; prev_val_1[0]                          ; Merged with accumulate_sample[0][1]    ;
 ; accumulate_sample[1][0]                ; Merged with prev_val_2[0]              ;
-; accumulate_sample[1][1]                ; Merged with prev_val_2[1]              ;
-; accumulate_sample[2][3]                ; Merged with prev_val_3[0]              ;
-; accumulate_sample[2][4]                ; Merged with prev_val_3[1]              ;
-; accumulate_sample[2][5]                ; Merged with prev_val_3[2]              ;
-; accumulate_sample[2][6]                ; Merged with prev_val_3[3]              ;
-; accumulate_sample[2][7]                ; Merged with prev_val_3[4]              ;
-; accumulate_sample[2][8]                ; Merged with prev_val_3[5]              ;
-; accumulate_sample[2][9]                ; Merged with prev_val_3[6]              ;
-; accumulate_sample[2][10]               ; Merged with prev_val_3[7]              ;
-; accumulate_sample[2][11]               ; Merged with prev_val_3[8]              ;
-; accumulate_sample[2][12]               ; Merged with prev_val_3[9]              ;
-; accumulate_sample[2][13]               ; Merged with prev_val_3[10]             ;
-; accumulate_sample[2][14]               ; Merged with prev_val_3[11]             ;
-; accumulate_sample[2][15]               ; Merged with prev_val_3[12]             ;
-; prev_val_1[1]                          ; Merged with accumulate_sample[0][1]    ;
-; prev_val_1[0]                          ; Merged with accumulate_sample[0][0]    ;
-; Total Number of Removed Registers = 22 ;                                        ;
+; Total Number of Removed Registers = 18 ;                                        ;
 +----------------------------------------+----------------------------------------+
 
 
@@ -249,7 +258,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 102   ;
+; Total registers                              ; 109   ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -264,17 +273,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 102                         ;
-;     plain             ; 102                         ;
-; arriav_lcell_comb     ; 71                          ;
-;     arith             ; 55                          ;
-;         2 data inputs ; 55                          ;
+; arriav_ff             ; 109                         ;
+;     plain             ; 109                         ;
+; arriav_lcell_comb     ; 62                          ;
+;     arith             ; 46                          ;
+;         2 data inputs ; 46                          ;
 ;     shared            ; 16                          ;
-;         3 data inputs ; 16                          ;
+;         1 data inputs ; 4                           ;
+;         2 data inputs ; 12                          ;
+; arriav_mac            ; 1                           ;
 ; boundary_port         ; 33                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 4.50                        ;
-; Average LUT depth     ; 2.97                        ;
+; Max LUT depth         ; 4.40                        ;
+; Average LUT depth     ; 2.37                        ;
 +-----------------------+-----------------------------+
 
 
@@ -293,7 +304,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Mon May 17 19:22:13 2021
+    Info: Processing started: Wed May 19 22:45:22 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off fir -c fir
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -304,14 +315,15 @@ Info (12127): Elaborating entity "fir" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 162 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 174 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 17 input pins
     Info (21059): Implemented 16 output pins
-    Info (21061): Implemented 129 logic cells
+    Info (21061): Implemented 140 logic cells
+    Info (21062): Implemented 1 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4876 megabytes
-    Info: Processing ended: Mon May 17 19:22:24 2021
-    Info: Elapsed time: 00:00:11
+    Info: Peak virtual memory: 4894 megabytes
+    Info: Processing ended: Wed May 19 22:45:32 2021
+    Info: Elapsed time: 00:00:10
     Info: Total CPU time (on all processors): 00:00:17
 
 

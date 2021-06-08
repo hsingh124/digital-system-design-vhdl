@@ -10,22 +10,23 @@ z2
 cModel Technology
 Z0 d//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/fir/simulation/modelsim
 T_opt
-!s110 1621411429
-VjRGIYjGe`?UQc4^JdFZ402
+!s110 1621420376
+VY;PzgdAlGnZZiIcoQV1cn0
 04 11 8 work fir_vhd_tst fir_arch 1
-=1-e454e87b1f08-60a4c664-378-43b8
+=2-e454e87b1f08-60a4e957-db-2448
 o-quiet -auto_acc_if_foreign -work work +acc
 tCvgOpt 0
 n@_opt
 OE;O;2020.2;71
+R0
 Efir
-Z1 w1621411411
+Z1 w1621420440
 Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z6 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-!i122 3
+!i122 29
 R0
 Z7 8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/fir/fir.vhd
 Z8 F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/fir/fir.vhd
@@ -35,9 +36,9 @@ VH;FgCi`c<VYz[f`HDONb>3
 !s100 b9>NaDVWR2eao[T@C67]01
 Z9 OE;C;2020.2;71
 32
-Z10 !s110 1621411419
+Z10 !s110 1621420453
 !i10b 1
-Z11 !s108 1621411419.000000
+Z11 !s108 1621420453.000000
 Z12 !s90 -reportprogress|300|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/fir/fir.vhd|
 Z13 !s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/fir/fir.vhd|
 !i113 0
@@ -49,12 +50,12 @@ R3
 R4
 R5
 R6
-DEx4 work 3 fir 0 22 H;FgCi`c<VYz[f`HDONb>3
-!i122 3
+Z16 DEx4 work 3 fir 0 22 H;FgCi`c<VYz[f`HDONb>3
+!i122 29
 l22
-L16 33
-V:NH1@j;DD_RREcEkfYEe>3
-!s100 PQTDcQ]TAR^Wl6UAAZN`?0
+Z17 L16 33
+Z18 V^NP]1kcl6ePU=2WeU`b_V0
+Z19 !s100 fGlHgLKzIAXDacXd[TnOk3
 R9
 32
 R10
@@ -66,24 +67,24 @@ R13
 R14
 R15
 Efir_vhd_tst
-Z16 w1621411197
+Z20 w1621411197
 R5
 R4
-!i122 4
+!i122 25
 R0
-Z17 8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/fir/simulation/modelsim/fir.vht
-Z18 F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/fir/simulation/modelsim/fir.vht
+Z21 8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/fir/simulation/modelsim/fir.vht
+Z22 F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/fir/simulation/modelsim/fir.vht
 l0
 L30 1
 VljjmL2nPa2OZkJIK]o;lQ1
 !s100 R<VMUgNIh84fmgc`C049V0
 R9
 32
-Z19 !s110 1621411423
+!s110 1621420362
 !i10b 1
-Z20 !s108 1621411423.000000
-Z21 !s90 -reportprogress|300|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/fir/simulation/modelsim/fir.vht|
-Z22 !s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/fir/simulation/modelsim/fir.vht|
+Z23 !s108 1621420361.000000
+Z24 !s90 -reportprogress|30|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/fir/simulation/modelsim/fir.vht|
+Z25 !s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/fir/simulation/modelsim/fir.vht|
 !i113 0
 R14
 R15
@@ -91,18 +92,18 @@ Afir_arch
 R5
 R4
 DEx4 work 11 fir_vhd_tst 0 22 ljjmL2nPa2OZkJIK]o;lQ1
-!i122 4
+!i122 25
 l45
 L32 1088
 V<EFJ_;YKVN[Id67UV?Dg_1
 !s100 T:588dB=g2A:zh23:oAIK2
 R9
 32
-R19
+!s110 1621420363
 !i10b 1
-R20
-R21
-R22
+R23
+R24
+R25
 !i113 0
 R14
 R15

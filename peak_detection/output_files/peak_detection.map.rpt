@@ -1,5 +1,5 @@
 Analysis & Synthesis report for peak_detection
-Sun May 16 15:09:49 2021
+Tue Jun 08 16:33:41 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -14,9 +14,10 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Post-Synthesis Netlist Statistics for Top Partition
- 10. Elapsed Time Per Partition
- 11. Analysis & Synthesis Messages
+  9. Inverted Register Statistics
+ 10. Post-Synthesis Netlist Statistics for Top Partition
+ 11. Elapsed Time Per Partition
+ 12. Analysis & Synthesis Messages
 
 
 
@@ -42,13 +43,13 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun May 16 15:09:49 2021           ;
+; Analysis & Synthesis Status     ; Successful - Tue Jun 08 16:33:41 2021           ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                   ; peak_detection                                  ;
 ; Top-level Entity Name           ; peak_detection                                  ;
 ; Family                          ; Cyclone V                                       ;
 ; Logic utilization (in ALMs)     ; N/A                                             ;
-; Total registers                 ; 0                                               ;
+; Total registers                 ; 48                                              ;
 ; Total pins                      ; 65                                              ;
 ; Total virtual pins              ; 0                                               ;
 ; Total block memory bits         ; 0                                               ;
@@ -158,47 +159,48 @@ refer to the applicable agreement for further details.
 ; Maximum allowed            ; 6           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
+; Maximum used               ; 6           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
+;     Processors 2-6         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                           ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                    ; Library ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------+---------+
-; peak_detection.vhd               ; yes             ; User VHDL File  ; //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd ;         ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                      ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                               ; Library ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------+---------+
+; peak_detection.vhd               ; yes             ; User VHDL File  ; //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/peak_detection/peak_detection.vhd ;         ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary         ;
-+---------------------------------------------+-------+
-; Resource                                    ; Usage ;
-+---------------------------------------------+-------+
-; Estimate of Logic utilization (ALMs needed) ; 0     ;
-;                                             ;       ;
-; Combinational ALUT usage for logic          ; 0     ;
-;     -- 7 input functions                    ; 0     ;
-;     -- 6 input functions                    ; 0     ;
-;     -- 5 input functions                    ; 0     ;
-;     -- 4 input functions                    ; 0     ;
-;     -- <=3 input functions                  ; 0     ;
-;                                             ;       ;
-; Dedicated logic registers                   ; 0     ;
-;                                             ;       ;
-; I/O pins                                    ; 65    ;
-;                                             ;       ;
-; Total DSP Blocks                            ; 0     ;
-;                                             ;       ;
-; Maximum fan-out node                        ; clock ;
-; Maximum fan-out                             ; 1     ;
-; Total fan-out                               ; 65    ;
-; Average fan-out                             ; 0.50  ;
-+---------------------------------------------+-------+
++-----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary               ;
++---------------------------------------------+-------------+
+; Resource                                    ; Usage       ;
++---------------------------------------------+-------------+
+; Estimate of Logic utilization (ALMs needed) ; 55          ;
+;                                             ;             ;
+; Combinational ALUT usage for logic          ; 84          ;
+;     -- 7 input functions                    ; 0           ;
+;     -- 6 input functions                    ; 24          ;
+;     -- 5 input functions                    ; 6           ;
+;     -- 4 input functions                    ; 12          ;
+;     -- <=3 input functions                  ; 42          ;
+;                                             ;             ;
+; Dedicated logic registers                   ; 48          ;
+;                                             ;             ;
+; I/O pins                                    ; 65          ;
+;                                             ;             ;
+; Total DSP Blocks                            ; 0           ;
+;                                             ;             ;
+; Maximum fan-out node                        ; clock~input ;
+; Maximum fan-out                             ; 48          ;
+; Total fan-out                               ; 530         ;
+; Average fan-out                             ; 2.02        ;
++---------------------------------------------+-------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -206,7 +208,7 @@ refer to the applicable agreement for further details.
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+----------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name    ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+----------------+--------------+
-; |peak_detection            ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 65   ; 0            ; |peak_detection     ; peak_detection ; work         ;
+; |peak_detection            ; 84 (84)             ; 48 (48)                   ; 0                 ; 0          ; 65   ; 0            ; |peak_detection     ; peak_detection ; work         ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -216,14 +218,39 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
+; Total registers                              ; 48    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Clock Enable       ; 48    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++---------------------------------------------------+
+; Inverted Register Statistics                      ;
++-----------------------------------------+---------+
+; Inverted Register                       ; Fan out ;
++-----------------------------------------+---------+
+; prev_min[0]                             ; 2       ;
+; prev_min[1]                             ; 2       ;
+; prev_min[2]                             ; 2       ;
+; prev_min[3]                             ; 2       ;
+; prev_min[4]                             ; 3       ;
+; prev_min[5]                             ; 3       ;
+; prev_min[6]                             ; 3       ;
+; prev_min[7]                             ; 3       ;
+; prev_min[8]                             ; 3       ;
+; prev_min[9]                             ; 3       ;
+; prev_min[10]                            ; 3       ;
+; prev_min[11]                            ; 3       ;
+; prev_min[12]                            ; 3       ;
+; prev_min[13]                            ; 3       ;
+; prev_min[14]                            ; 3       ;
+; prev_min[15]                            ; 2       ;
+; Total number of inverted registers = 16 ;         ;
++-----------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -231,13 +258,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 1                           ;
-;     normal            ; 1                           ;
-;         0 data inputs ; 1                           ;
+; arriav_ff             ; 48                          ;
+;     ENA               ; 48                          ;
+; arriav_lcell_comb     ; 100                         ;
+;     arith             ; 15                          ;
+;         1 data inputs ; 14                          ;
+;         2 data inputs ; 1                           ;
+;     normal            ; 85                          ;
+;         1 data inputs ; 33                          ;
+;         2 data inputs ; 10                          ;
+;         4 data inputs ; 12                          ;
+;         5 data inputs ; 6                           ;
+;         6 data inputs ; 24                          ;
 ; boundary_port         ; 65                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 0.00                        ;
-; Average LUT depth     ; 0.00                        ;
+; Max LUT depth         ; 4.00                        ;
+; Average LUT depth     ; 2.95                        ;
 +-----------------------+-----------------------------+
 
 
@@ -256,93 +292,25 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Sun May 16 15:09:39 2021
+    Info: Processing started: Tue Jun 08 16:33:29 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off peak_detection -c peak_detection
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file peak_detection.vhd
-    Info (12022): Found design unit 1: peak_detection-rtl File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 16
-    Info (12023): Found entity 1: peak_detection File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 6
+    Info (12022): Found design unit 1: peak_detection-rtl File: //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/peak_detection/peak_detection.vhd Line: 16
+    Info (12023): Found entity 1: peak_detection File: //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/peak_detection/peak_detection.vhd Line: 6
 Info (12127): Elaborating entity "peak_detection" for the top level hierarchy
-Warning (10541): VHDL Signal Declaration warning at peak_detection.vhd(11): used implicit default value for signal "max_val" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 11
-Warning (10541): VHDL Signal Declaration warning at peak_detection.vhd(12): used implicit default value for signal "min_val" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 12
-Warning (10540): VHDL Signal Declaration warning at peak_detection.vhd(20): used explicit default value for signal "current_val" because signal was never assigned a value File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 20
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "max_val[0]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 11
-    Warning (13410): Pin "max_val[1]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 11
-    Warning (13410): Pin "max_val[2]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 11
-    Warning (13410): Pin "max_val[3]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 11
-    Warning (13410): Pin "max_val[4]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 11
-    Warning (13410): Pin "max_val[5]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 11
-    Warning (13410): Pin "max_val[6]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 11
-    Warning (13410): Pin "max_val[7]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 11
-    Warning (13410): Pin "max_val[8]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 11
-    Warning (13410): Pin "max_val[9]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 11
-    Warning (13410): Pin "max_val[10]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 11
-    Warning (13410): Pin "max_val[11]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 11
-    Warning (13410): Pin "max_val[12]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 11
-    Warning (13410): Pin "max_val[13]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 11
-    Warning (13410): Pin "max_val[14]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 11
-    Warning (13410): Pin "max_val[15]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 11
-    Warning (13410): Pin "min_val[0]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 12
-    Warning (13410): Pin "min_val[1]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 12
-    Warning (13410): Pin "min_val[2]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 12
-    Warning (13410): Pin "min_val[3]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 12
-    Warning (13410): Pin "min_val[4]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 12
-    Warning (13410): Pin "min_val[5]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 12
-    Warning (13410): Pin "min_val[6]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 12
-    Warning (13410): Pin "min_val[7]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 12
-    Warning (13410): Pin "min_val[8]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 12
-    Warning (13410): Pin "min_val[9]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 12
-    Warning (13410): Pin "min_val[10]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 12
-    Warning (13410): Pin "min_val[11]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 12
-    Warning (13410): Pin "min_val[12]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 12
-    Warning (13410): Pin "min_val[13]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 12
-    Warning (13410): Pin "min_val[14]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 12
-    Warning (13410): Pin "min_val[15]" is stuck at GND File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 12
+Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 33 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "clock" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 8
-    Warning (15610): No output dependent on input pin "signal_input[0]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 9
-    Warning (15610): No output dependent on input pin "signal_input[1]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 9
-    Warning (15610): No output dependent on input pin "signal_input[2]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 9
-    Warning (15610): No output dependent on input pin "signal_input[3]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 9
-    Warning (15610): No output dependent on input pin "signal_input[4]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 9
-    Warning (15610): No output dependent on input pin "signal_input[5]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 9
-    Warning (15610): No output dependent on input pin "signal_input[6]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 9
-    Warning (15610): No output dependent on input pin "signal_input[7]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 9
-    Warning (15610): No output dependent on input pin "signal_input[8]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 9
-    Warning (15610): No output dependent on input pin "signal_input[9]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 9
-    Warning (15610): No output dependent on input pin "signal_input[10]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 9
-    Warning (15610): No output dependent on input pin "signal_input[11]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 9
-    Warning (15610): No output dependent on input pin "signal_input[12]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 9
-    Warning (15610): No output dependent on input pin "signal_input[13]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 9
-    Warning (15610): No output dependent on input pin "signal_input[14]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 9
-    Warning (15610): No output dependent on input pin "signal_input[15]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 9
-    Warning (15610): No output dependent on input pin "cycle_num[0]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 10
-    Warning (15610): No output dependent on input pin "cycle_num[1]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 10
-    Warning (15610): No output dependent on input pin "cycle_num[2]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 10
-    Warning (15610): No output dependent on input pin "cycle_num[3]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 10
-    Warning (15610): No output dependent on input pin "cycle_num[4]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 10
-    Warning (15610): No output dependent on input pin "cycle_num[5]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 10
-    Warning (15610): No output dependent on input pin "cycle_num[6]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 10
-    Warning (15610): No output dependent on input pin "cycle_num[7]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 10
-    Warning (15610): No output dependent on input pin "cycle_num[8]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 10
-    Warning (15610): No output dependent on input pin "cycle_num[9]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 10
-    Warning (15610): No output dependent on input pin "cycle_num[10]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 10
-    Warning (15610): No output dependent on input pin "cycle_num[11]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 10
-    Warning (15610): No output dependent on input pin "cycle_num[12]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 10
-    Warning (15610): No output dependent on input pin "cycle_num[13]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 10
-    Warning (15610): No output dependent on input pin "cycle_num[14]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 10
-    Warning (15610): No output dependent on input pin "cycle_num[15]" File: //files.auckland.ac.nz/myhome/Desktop/hsin849/peak_detection/peak_detection.vhd Line: 10
-Info (21057): Implemented 65 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 165 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 33 input pins
     Info (21059): Implemented 32 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 71 warnings
-    Info: Peak virtual memory: 4860 megabytes
-    Info: Processing ended: Sun May 16 15:09:49 2021
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:16
+    Info (21061): Implemented 100 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4879 megabytes
+    Info: Processing ended: Tue Jun 08 16:33:41 2021
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:18
 
 

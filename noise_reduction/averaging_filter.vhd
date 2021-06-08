@@ -19,6 +19,7 @@ end averaging_filter;
 architecture behaviour of averaging_filter is
 
 	signal data_avg			: bit_16 := x"0000";
+	signal data_lulu_out			: bit_16 := x"0000";
 	signal data_sum			: bit_16 := x"0000";
 	signal divisor				: bit_5	:= "00000";
 	signal count				: integer range 63 downto 0 := 0;
@@ -26,6 +27,14 @@ architecture behaviour of averaging_filter is
 	signal temp					: bit_16 := x"0000";
 	type arr is array (63 downto 0) of bit_16;
 	signal backlog : arr := (others=>(others=>'0'));
+	
+	component lulu_smoother is
+	port (
+		clk : in bit_1;
+		data_in : in bit_16;
+		data_out : out bit_16
+	);
+	end component;
 	
 begin
 
@@ -66,8 +75,11 @@ begin
 		
 		data_avg <= "000000" & data_sum(15 downto 6);
 	end process;
+	
+	lulu: lulu_smoother
+	port map (clk, data_avg, data_lulu_out);
 
-	data_out <= data_avg;
+	data_out <= data_lulu_out;
 
 --temp <= backlog(point);
 --		

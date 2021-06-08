@@ -1,5 +1,5 @@
 Assembler report for peak_detection
-Sun May 16 15:10:30 2021
+Tue Jun 08 16:34:28 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: /Desktop/hsin849/peak_detection/output_files/peak_detection.sof
+  5. Assembler Device Options: /Desktop/hsin849/digital_system_design_vhdl/peak_detection/output_files/peak_detection.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sun May 16 15:10:30 2021 ;
+; Assembler Status      ; Successful - Tue Jun 08 16:34:28 2021 ;
 ; Revision Name         ; peak_detection                        ;
 ; Top-level Entity Name ; peak_detection                        ;
 ; Family                ; Cyclone V                             ;
@@ -52,23 +52,23 @@ refer to the applicable agreement for further details.
 +--------+---------+---------------+
 
 
-+-----------------------------------------------------------------+
-; Assembler Generated Files                                       ;
-+-----------------------------------------------------------------+
-; File Name                                                       ;
-+-----------------------------------------------------------------+
-; /Desktop/hsin849/peak_detection/output_files/peak_detection.sof ;
-+-----------------------------------------------------------------+
++--------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                  ;
++--------------------------------------------------------------------------------------------+
+; File Name                                                                                  ;
++--------------------------------------------------------------------------------------------+
+; /Desktop/hsin849/digital_system_design_vhdl/peak_detection/output_files/peak_detection.sof ;
++--------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------+
-; Assembler Device Options: /Desktop/hsin849/peak_detection/output_files/peak_detection.sof ;
-+----------------+--------------------------------------------------------------------------+
-; Option         ; Setting                                                                  ;
-+----------------+--------------------------------------------------------------------------+
-; JTAG usercode  ; 0x00AF753D                                                               ;
-; Checksum       ; 0x00AF753D                                                               ;
-+----------------+--------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: /Desktop/hsin849/digital_system_design_vhdl/peak_detection/output_files/peak_detection.sof ;
++----------------+-----------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                             ;
++----------------+-----------------------------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x00B170C1                                                                                          ;
+; Checksum       ; 0x00B170C1                                                                                          ;
++----------------+-----------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -77,14 +77,14 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Sun May 16 15:10:22 2021
+    Info: Processing started: Tue Jun 08 16:34:20 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off peak_detection -c peak_detection
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4834 megabytes
-    Info: Processing ended: Sun May 16 15:10:30 2021
+    Info: Processing ended: Tue Jun 08 16:34:28 2021
     Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:06
+    Info: Total CPU time (on all processors): 00:00:05
 
 

@@ -46,4 +46,8 @@ vmap work rtl_work
 
 vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/asp_types.vhd}
 vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/averaging_filter.vhd}
+vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/lower_smoother.vhd}
+vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/lulu_smoother.vhd}
+vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/upper_smoother.vhd}
+vcom -93 -work work {//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/noise_reduction/noise_reduction_filter.vhd}
 

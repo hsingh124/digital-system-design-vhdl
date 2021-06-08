@@ -1,0 +1,54 @@
+m255
+K4
+z2
+!s11e vcom 2020.2 2020.04, Apr 19 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/peak_detection/simulation/modelsim
+Epeak_detection_vhd_tst
+Z1 w1621137182
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 5
+R0
+Z5 8//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/peak_detection/simulation/modelsim/peak_detection.vht
+Z6 F//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/peak_detection/simulation/modelsim/peak_detection.vht
+l0
+L31 1
+VA5^^`aOKa?Dah35HflOE_0
+!s100 X<@QhEbGA_3b<5o_cYVeg3
+Z7 OE;C;2020.2;71
+32
+Z8 !s110 1623127070
+!i10b 1
+Z9 !s108 1623127070.000000
+Z10 !s90 -reportprogress|30|-work|work|//files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/peak_detection/simulation/modelsim/peak_detection.vht|
+Z11 !s107 //files.auckland.ac.nz/myhome/Desktop/hsin849/digital_system_design_vhdl/peak_detection/simulation/modelsim/peak_detection.vht|
+!i113 0
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Apeak_detection_arch
+R2
+R3
+R4
+Z14 DEx4 work 22 peak_detection_vhd_tst 0 22 A5^^`aOKa?Dah35HflOE_0
+!i122 5
+l50
+Z15 L33 64
+Z16 V55FG_:THBCY`679XV_1QW2
+Z17 !s100 aHMU5o<2MgMMWdE;<nDTX0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
