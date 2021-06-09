@@ -76,13 +76,13 @@ begin
 	lulu : noise_reduction_filter port map (clock, recv.data(15 downto 0), lulu_output);
 	peak : peak_detection port map (clock, recv.data(15 downto 0), max_peak, min_peak);
 
-	mode <= "0000";
+	--mode <= "0010";
 	process(clock)
 	variable state : natural := 9;
 	begin
 		if rising_edge(clock) then
 			if recv.data(31 downto 28) = "1001" then
-				--mode <= recv.data(19 downto 16);
+				mode <= recv.data(19 downto 16);
 			end if;
 			
 			if recv.data(31 downto 28) = "1000" then

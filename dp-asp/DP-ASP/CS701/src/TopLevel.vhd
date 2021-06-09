@@ -7,7 +7,7 @@ use work.TdmaMinTypes.all;
 
 entity TopLevel is
 	generic (
-		ports : positive := 3
+		ports : positive := 4
 	);
 	port (
 		CLOCK_50      : in    std_logic;
@@ -103,5 +103,11 @@ begin
 		send => send_port(2),
 		recv => recv_port(2)
 		);
+	
+	recop : entity work.recop
+	port map (
+		clock,
+		send_port(3)
+	);
 
 end architecture;

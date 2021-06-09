@@ -1,5 +1,8 @@
 library ieee;
 use ieee.std_logic_1164.all;
+
+library work;
+
 package asp_types is
 	
 	subtype bit_32 is std_logic_vector(31 downto 0);
