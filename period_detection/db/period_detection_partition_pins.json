@@ -1,0 +1,173 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sample_count[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sample_count[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sample_count[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sample_count[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sample_count[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sample_count[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sample_count[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sample_count[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "recv[15]",
+					"strict" : false
+				},
+				{
+					"name" : "peak[15]",
+					"strict" : false
+				},
+				{
+					"name" : "recv[11]",
+					"strict" : false
+				},
+				{
+					"name" : "peak[11]",
+					"strict" : false
+				},
+				{
+					"name" : "recv[14]",
+					"strict" : false
+				},
+				{
+					"name" : "peak[14]",
+					"strict" : false
+				},
+				{
+					"name" : "recv[13]",
+					"strict" : false
+				},
+				{
+					"name" : "peak[13]",
+					"strict" : false
+				},
+				{
+					"name" : "recv[12]",
+					"strict" : false
+				},
+				{
+					"name" : "peak[12]",
+					"strict" : false
+				},
+				{
+					"name" : "recv[10]",
+					"strict" : false
+				},
+				{
+					"name" : "peak[10]",
+					"strict" : false
+				},
+				{
+					"name" : "recv[9]",
+					"strict" : false
+				},
+				{
+					"name" : "peak[9]",
+					"strict" : false
+				},
+				{
+					"name" : "recv[8]",
+					"strict" : false
+				},
+				{
+					"name" : "peak[8]",
+					"strict" : false
+				},
+				{
+					"name" : "recv[3]",
+					"strict" : false
+				},
+				{
+					"name" : "peak[3]",
+					"strict" : false
+				},
+				{
+					"name" : "recv[2]",
+					"strict" : false
+				},
+				{
+					"name" : "peak[2]",
+					"strict" : false
+				},
+				{
+					"name" : "recv[1]",
+					"strict" : false
+				},
+				{
+					"name" : "peak[1]",
+					"strict" : false
+				},
+				{
+					"name" : "recv[0]",
+					"strict" : false
+				},
+				{
+					"name" : "peak[0]",
+					"strict" : false
+				},
+				{
+					"name" : "recv[5]",
+					"strict" : false
+				},
+				{
+					"name" : "peak[5]",
+					"strict" : false
+				},
+				{
+					"name" : "recv[7]",
+					"strict" : false
+				},
+				{
+					"name" : "peak[7]",
+					"strict" : false
+				},
+				{
+					"name" : "recv[6]",
+					"strict" : false
+				},
+				{
+					"name" : "peak[6]",
+					"strict" : false
+				},
+				{
+					"name" : "recv[4]",
+					"strict" : false
+				},
+				{
+					"name" : "peak[4]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
